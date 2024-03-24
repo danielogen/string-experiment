@@ -1,0 +1,699 @@
+{% extends "base.html" %} 
+{% block title %}Home{% endblock %} 
+
+{% block content %}
+<div class="container">
+    <br>
+    <!-- <h1>Literal String Interpolation Experiment</h1>
+    <p>String interpolation allows you to embed expressions into string literals, 
+        making it easier to include variables, expressions, 
+        or functions within a string. In this exercise, you will encounter different possible 
+        permutations of string interpolation syntax. <b>Your task is to select "A" or "B" as 
+        quickly as possible to indicate whether you think the code snippet is correct or not. Use the UP ARROW KEY FOR "A" and DOWN ARROW KEY FOR "B".
+      To navigate to the next task, use the RIGHT ARROW KEY</b>.
+    </p> -->
+    
+    <!-- Demographic information -->
+    <div id="demog">
+    <h3>Demographic Information</h3>
+    <div class="row">
+        <div class="col-md-6">
+            <label for="age">How old are you?</label>
+            <input type="number" min="18" class="form-control" id="age" name="age">
+        </div>
+        <div class="col-md-6">
+            <label for="gender">What is you gender?</label>
+            <select class="form-control" id="gender" name="gender">
+                <option value="">....</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Prefer Not to Say</option>
+            </select>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-6">
+            <label for="programmingYear">Year of Studying Programming:</label>
+            <select class="form-control" id="programmingYear" name="programmingYear">
+                <option value="Freshman">Freshman</option>
+                <option value="Sophomore">Sophomore</option>
+                <option value="Junior">Junior</option>
+                <option value="Senior">Senior</option>
+                <option value="Professional">Professional</option>
+                <!-- Add more options as needed -->
+            </select>
+        </div>
+        <div class="col-md-6">
+            <label for="preferredLanguage">Select the most prefered programming language:</label>
+            <select class="form-control" id="preferredLanguage" name="preferredLanguage">
+                <option value="None">...</option>
+                <option value="C++">C++</option>
+                <option value="C">C</option>
+                <option value="Java">Java</option>
+                <option value="Python">Python</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Perl">Perl</option>
+                <option value="Julia">Julia</option>
+                <option value="R">R</option>
+                <option value="Quorum">Quorum</option>
+                <option value="FORTRAN">FORTRAN</option>
+                <option value="COBOL">COBOL</option>
+                <option value="SmallTalk">SmallTalk</option>
+                <option value="Scheme">Scheme</option>
+                <option value="Others">Others</option>
+                <!-- Add more options as needed -->
+            </select>
+        </div>
+    </div>
+    </div>
+    <br />
+    <!-- Start button -->
+    <button id="startBtn" class="btn btn-success">Next >></button>
+    
+    <div id="questionContainer" style="display: none;">
+      <div id="question1" class="question" style="display: none;">
+        <h4>Task 1 of 15:</h4>
+          <pre>
+              <code>
+                  A. "....." + 4 * 3 + "....."
+                  B. "....." + ${4 * 3} + "....."
+              </code>
+          </pre>
+        <form>
+          <div class="form-group">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="q1Yes" name="q1" value="yes">
+              <label class="form-check-label" for="q1Yes">A</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="q1No" name="q1" value="no">
+              <label class="form-check-label" for="q1No">B</label>
+            </div>
+          </div>
+          <input type="hidden" value="Concatenated" id="Concatenated" />
+          <button type="button" class="btn btn-success next-btn" data-next="question2">Next</button>
+        </form>
+      </div>
+      <div id="question2" class="question" style="display: none;">
+        <h4>Task 2 of 15:</h4>
+        <pre>
+            <code>
+                a = 4
+                b = 3
+                A. "....." + a * b + "....."
+                B. "....." + |a| * |b| + "....."
+            </code>
+        </pre>
+      <form>
+        <div class="form-group">
+          <div class="form-check">
+            <input type="radio" class="form-check-input" id="q1Yes" name="q1" value="yes">
+            <label class="form-check-label" for="q1Yes">A</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" id="q1No" name="q1" value="no">
+            <label class="form-check-label" for="q1No">B</label>
+          </div>
+        </div>
+        <input type="hidden" value="Concatenated" id="Concatenated" />
+        <button type="button" class="btn btn-success next-btn" data-next="question3">Next</button>
+      </form>
+    </div>
+    <div id="question3" class="question" style="display: none;">
+      <h4>Task 3 of 15:</h4>
+      <pre>
+          <code>
+              a = 4
+              b = 3
+              c = 4 * 3
+              A. "....." + |a * b| + "...." + |c|+ "...."
+              B. |....." + a * b + "...." + c + "..|
+          </code>
+      </pre>
+    <form>
+      <div class="form-group">
+        <div class="form-check">
+          <input type="radio" class="form-check-input" id="q1Yes" name="q1" value="yes">
+          <label class="form-check-label" for="q1Yes">A</label>
+        </div>
+        <div class="form-check">
+          <input type="radio" class="form-check-input" id="q1No" name="q1" value="no">
+          <label class="form-check-label" for="q1No">B</label>
+        </div>
+      </div>
+      <input type="hidden" value="Concatenated" id="Concatenated" />
+      <button type="button" class="btn btn-success next-btn" data-next="question4">Next</button>
+    </form>
+  </div>
+  <div id="question4" class="question" style="display: none;">
+    <h4>Task 4 of 15:</h4>
+    <pre>
+        <code>
+            A. '.....' + {expression['variable']} + '.....'
+            B. '.....' + {expression[variable]}+ '.....'
+        </code>
+    </pre>
+  <form>
+    <div class="form-group">
+      <div class="form-check">
+        <input type="radio" class="form-check-input" id="q1Yes" name="q1" value="yes">
+        <label class="form-check-label" for="q1Yes">A</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" id="q1No" name="q1" value="no">
+        <label class="form-check-label" for="q1No">B</label>
+      </div>
+    </div>
+    <input type="hidden" value="Concatenated" id="Concatenated" />
+    <button type="button" class="btn btn-success next-btn" data-next="question5">Next</button>
+  </form>
+  </div>
+  <div id="question5" class="question" style="display: none;">
+    <h4>Task 5 of 15:</h4>
+    <pre>
+        <code>
+            A. "....." + expression['variable']+ "....."
+            B. '.....' + expression["variable"]+ '.....'
+        </code>
+    </pre>
+  <form>
+    <div class="form-group">
+      <div class="form-check">
+        <input type="radio" class="form-check-input" id="q1Yes" name="q1" value="yes">
+        <label class="form-check-label" for="q1Yes">A</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" id="q1No" name="q1" value="no">
+        <label class="form-check-label" for="q1No">B</label>
+      </div>
+    </div>
+    <input type="hidden" value="Interpolated" id="Interpolated" />
+    <button type="button" class="btn btn-success next-btn" data-next="question6">Next</button>
+  </form>
+  </div>
+  <!-- End of session 1 -->
+  
+  <!-- Beginning of session 2 - Interpolation -->
+    <div id="question6" class="question" style="display: none;">
+      <h4>Task 6 of 15:</h4>
+        <pre>
+            <code>
+                A. f".....{4*3}..."
+                B. f".....${4*3}..."
+            </code>
+        </pre>
+      <form>
+        <div class="form-group">
+          <div class="form-check">
+            <input type="radio" class="form-check-input" id="q1Yes" name="q1" value="yes">
+            <label class="form-check-label" for="q1Yes">A</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" id="q1No" name="q1" value="no">
+            <label class="form-check-label" for="q1No">B</label>
+          </div>
+        </div>
+        <input type="hidden" value="Interpolated" id="Interpolated" />
+        <button type="button" class="btn btn-success next-btn" data-next="question7">Next</button>
+      </form>
+    </div>
+
+    <div id="question7" class="question" style="display: none;">
+        <h4>Task 7 of 15:</h4>
+        <pre>
+            <code>
+                A. ".....{4*3}..."
+                B. ".....4*3..."
+            </code>
+        </pre>
+      <form>
+        <div class="form-group">
+          <div class="form-check">
+            <input type="radio" class="form-check-input" id="q1Yes" name="q1" value="yes">
+            <label class="form-check-label" for="q1Yes">A</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" id="q1No" name="q1" value="no">
+            <label class="form-check-label" for="q1No">B</label>
+          </div>
+        </div>
+        <input type="hidden" value="Interpolated" id="Interpolated" />
+        <button type="button" class="btn btn-success next-btn" data-next="question8">Next</button>
+      </form>
+    </div>
+    <div id="question8" class="question" style="display: none;">
+        <h4>Task 8 of 15:</h4>
+        <pre>
+            <code>
+                a = 4
+                b = 3
+                A. ".....{} * {}..., a, b"
+                B. ".....|| * ||..., a, b"
+            </code>
+        </pre>
+      <form>
+        <div class="form-group">
+          <div class="form-check">
+            <input type="radio" class="form-check-input" id="q1Yes" name="q1" value="yes">
+            <label class="form-check-label" for="q1Yes">A</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" id="q1No" name="q1" value="no">
+            <label class="form-check-label" for="q1No">B</label>
+          </div>
+        </div>
+        <input type="hidden" value="Interpolated" id="Interpolated" />
+        <button type="button" class="btn btn-success next-btn" data-next="question9">Next</button>
+      </form>
+    </div>
+    <!-- <div id="question4" class="question" style="display: none;">
+        <h4>Task 4:</h4>
+        <pre>
+            <code>
+               A. {.....\"4*3\"...}
+               B. ".....\{4*3\}..."
+            </code>
+        </pre>
+      <form>
+        <div class="form-group">
+          <div class="form-check">
+            <input type="radio" class="form-check-input" id="q1Yes" name="q1" value="yes">
+            <label class="form-check-label" for="q1Yes">A</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" id="q1No" name="q1" value="no">
+            <label class="form-check-label" for="q1No">B</label>
+          </div>
+        </div>
+        <button type="button" class="btn btn-success next-btn" data-next="question5">Next</button>
+      </form>
+    </div>
+    <div id="question5" class="question" style="display: none;">
+        <h4>Task 5:</h4>
+        <pre>
+            <code>
+                A. `.....\"4*3\"...`
+                B. "\.....`4*3`...\"
+            </code>
+        </pre>
+      <form>
+        <div class="form-group">
+          <div class="form-check">
+            <input type="radio" class="form-check-input" id="q1Yes" name="q1" value="yes">
+            <label class="form-check-label" for="q1Yes">A</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" id="q1No" name="q1" value="no">
+            <label class="form-check-label" for="q1No">B</label>
+          </div>
+        </div>
+        <button type="button" class="btn btn-success next-btn" data-next="question6">Next</button>
+      </form>
+    </div>
+    <div id="question6" class="question" style="display: none;">
+        <h4>Task 6:</h4>
+        <pre>
+            <code>
+                a = 4
+                b = 3
+                c = 4 * 3
+                A. ".....|a * b|....|c|.."
+                B. |....."a * b"...."c"..|
+            </code>
+        </pre>
+      <form>
+        <div class="form-group">
+          <div class="form-check">
+            <input type="radio" class="form-check-input" id="q1Yes" name="q1" value="yes">
+            <label class="form-check-label" for="q1Yes">A</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" id="q1No" name="q1" value="no">
+            <label class="form-check-label" for="q1No">B</label>
+          </div>
+        </div>
+        <button type="button" class="btn btn-success next-btn" data-next="question7">Next</button>
+      </form>
+    </div> -->
+    <div id="question9" class="question" style="display: none;">
+        <h4>Task 9 of 15:</h4>
+        <pre>
+            <code>
+                A. '.....{expression['variable']}...'
+                B. '.....{expression[variable]}...'
+            </code>
+        </pre>
+      <form>
+        <div class="form-group">
+          <div class="form-check">
+            <input type="radio" class="form-check-input" id="q1Yes" name="q1" value="yes">
+            <label class="form-check-label" for="q1Yes">A</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" id="q1No" name="q1" value="no">
+            <label class="form-check-label" for="q1No">B</label>
+          </div>
+        </div>
+        <input type="hidden" value="Interpolated" id="Interpolated" />
+        <button type="button" class="btn btn-success next-btn" data-next="question10">Next</button>
+      </form>
+    </div>
+    <div id="question10" class="question" style="display: none;">
+        <h4>Task 10 of 15:</h4>
+        <pre>
+            <!-- <code>
+                A. ".....{expression['variable']}..."
+                B. '.....{expression["variable"]}...'
+            </code> -->
+            <code>
+              A. ".....{\'expression['variable']\'}..."
+              B. ".....{\"expression['variable']\"}..."
+            </code>
+        </pre>
+      <form>
+        <div class="form-group">
+          <div class="form-check">
+            <input type="radio" class="form-check-input" id="q1Yes" name="q1" value="yes">
+            <label class="form-check-label" for="q1Yes">A</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" id="q1No" name="q1" value="no">
+            <label class="form-check-label" for="q1No">B</label>
+          </div>
+        </div>
+        <input type="hidden" value="Interpolated" id="Interpolated" />
+        <button type="button" class="btn btn-success next-btn" data-next="question11">Next</button>
+      </form>
+    </div>
+    <!-- End of interpolated session -->
+
+    <!-- Beginning of Probe -->
+    <div id="question11" class="question" style="display: none;">
+      <h4>Task 11 of 15:</h4>
+      <pre>
+          <!-- <code>
+              A. ".....{expression['variable']}..."
+              B. '.....{expression["variable"]}...'
+          </code> -->
+          <code>
+            A. ".....{\'expression['variable']\'}..."
+            B. ".....{\"expression['variable']\"}..."
+          </code>
+      </pre>
+    <form>
+      <div class="form-group">
+        <div class="form-check">
+          <input type="radio" class="form-check-input" id="q1Yes" name="q1" value="yes">
+          <label class="form-check-label" for="q1Yes">A</label>
+        </div>
+        <div class="form-check">
+          <input type="radio" class="form-check-input" id="q1No" name="q1" value="no">
+          <label class="form-check-label" for="q1No">B</label>
+        </div>
+      </div>
+      <input type="hidden" value="Probe" id="Probe" />
+      <button type="button" class="btn btn-success next-btn" data-next="question12">Next</button>
+    </form>
+  </div>
+  <div id="question12" class="question" style="display: none;">
+    <h4>Task 12 of 15:</h4>
+    <pre>
+        <!-- <code>
+            A. ".....{expression['variable']}..."
+            B. '.....{expression["variable"]}...'
+        </code> -->
+        <code>
+          A. ".....{\'expression['variable']\'}..."
+          B. ".....{\"expression['variable']\"}..."
+        </code>
+    </pre>
+  <form>
+    <div class="form-group">
+      <div class="form-check">
+        <input type="radio" class="form-check-input" id="q1Yes" name="q1" value="yes">
+        <label class="form-check-label" for="q1Yes">A</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" id="q1No" name="q1" value="no">
+        <label class="form-check-label" for="q1No">B</label>
+      </div>
+    </div>
+    <input type="hidden" value="Probe" id="Probe" />
+    <button type="button" class="btn btn-success next-btn" data-next="question13">Next</button>
+  </form>
+</div>
+<div id="question13" class="question" style="display: none;">
+  <h4>Task 13 of 15:</h4>
+  <pre>
+      <!-- <code>
+          A. ".....{expression['variable']}..."
+          B. '.....{expression["variable"]}...'
+      </code> -->
+      <code>
+        A. ".....{\'expression['variable']\'}..."
+        B. ".....{\"expression['variable']\"}..."
+      </code>
+  </pre>
+<form>
+  <div class="form-group">
+    <div class="form-check">
+      <input type="radio" class="form-check-input" id="q1Yes" name="q1" value="yes">
+      <label class="form-check-label" for="q1Yes">A</label>
+    </div>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" id="q1No" name="q1" value="no">
+      <label class="form-check-label" for="q1No">B</label>
+    </div>
+  </div>
+  <input type="hidden" value="Probe" id="Probe" />
+  <button type="button" class="btn btn-success next-btn" data-next="question14">Next</button>
+</form>
+</div>
+<div id="question14" class="question" style="display: none;">
+  <h4>Task 14 of 15:</h4>
+  <pre>
+      <!-- <code>
+          A. ".....{expression['variable']}..."
+          B. '.....{expression["variable"]}...'
+      </code> -->
+      <code>
+        A. ".....{\'expression['variable']\'}..."
+        B. ".....{\"expression['variable']\"}..."
+      </code>
+  </pre>
+<form>
+  <div class="form-group">
+    <div class="form-check">
+      <input type="radio" class="form-check-input" id="q1Yes" name="q1" value="yes">
+      <label class="form-check-label" for="q1Yes">A</label>
+    </div>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" id="q1No" name="q1" value="no">
+      <label class="form-check-label" for="q1No">B</label>
+    </div>
+  </div>
+  <input type="hidden" value="Probe" id="Probe" />
+  <button type="button" class="btn btn-success next-btn" data-next="question15">Next</button>
+</form>
+</div>
+<div id="question15" class="question" style="display: none;">
+  <h4>Task 15 of 15:</h4>
+  <pre>
+      <!-- <code>
+          A. ".....{expression['variable']}..."
+          B. '.....{expression["variable"]}...'
+      </code> -->
+      <code>
+        A. ".....{\'expression['variable']\'}..."
+        B. ".....{\"expression['variable']\"}..."
+      </code>
+  </pre>
+<form>
+  <div class="form-group">
+    <div class="form-check">
+      <input type="radio" class="form-check-input" id="q1Yes" name="q1" value="yes">
+      <label class="form-check-label" for="q1Yes">A</label>
+    </div>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" id="q1No" name="q1" value="no">
+      <label class="form-check-label" for="q1No">B</label>
+    </div>
+  </div>
+  <input type="hidden" value="Probe" id="Probe" />
+  <button type="button" class="btn btn-success next-btn" data-next="submitPage">Next</button>
+</form>
+</div>
+    <!-- End of probe -->
+    <!-- <div id="question9" class="question" style="display: none;">
+        <h4>Task 9:</h4>
+        <pre>
+            <code>
+                A. ".....{\'expression['variable']\'}..."
+                B. ".....{\"expression['variable']\"}..."
+            </code>
+        </pre>
+      <form>
+        <div class="form-group">
+          <div class="form-check">
+            <input type="radio" class="form-check-input" id="q1Yes" name="q1" value="yes">
+            <label class="form-check-label" for="q1Yes">A</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" id="q1No" name="q1" value="no">
+            <label class="form-check-label" for="q1No">B</label>
+          </div>
+        </div>
+        <button type="button" class="btn btn-success next-btn" data-next="question10">Next</button>
+      </form>
+    </div> -->
+    <!-- <div id="question10" class="question" style="display: none;">
+        <h4>Task 10:</h4>
+        <pre>
+            <code>
+                A. |.....{expression['variable']}...|
+                B. |.....|expression['variable']|...|
+            </code>
+        </pre>
+      <form>
+        <div class="form-group">
+          <div class="form-check">
+            <input type="radio" class="form-check-input" id="q1Yes" name="q1" value="yes">
+            <label class="form-check-label" for="q1Yes">A</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" id="q1No" name="q1" value="no">
+            <label class="form-check-label" for="q1No">B</label>
+          </div>
+        </div>
+          <button type="button" class="btn btn-success next-btn" data-next="submitPage">Next</button>
+        </form>
+      </div> -->
+
+    <!-- Repeat the above structure for additional questions -->
+
+    <!-- Submit button (only appears at the end) -->
+    <div id="submitPage" style="display: none;">
+      <h4 class="text-success">Thank you for participating in this study!</h4>
+      <!-- <form> -->
+        <!-- Any final content or review of answers -->
+        <!-- <button type="submit" class="btn btn-success">Submit</button> -->
+      <!-- </form> -->
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS (optional, if you need JavaScript features) -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const questionDivs = document.querySelectorAll('.question');
+    const nextButtons = document.querySelectorAll('.next-btn');
+    const submitPage = document.getElementById('submitPage');
+    const startBtn = document.getElementById('startBtn');
+    const demogDiv = document.getElementById('demog');
+    const questionContainer = document.getElementById('questionContainer');
+    let taskStart; // Variable to store the start time of each task
+    let currentTaskNumber = 1; // Variable to store the current task number
+    const taskDurations = []; // Array to store task durations
+    const taskNumbers = []; // Array to store task numbers
+    let age;
+    let gender;
+    let progammingYear;
+    let preferredLanguage;
+
+    // Function to handle keyboard navigation
+    function handleKeyboardNavigation(event) {
+      const currentQuestion = document.querySelector('.question:not([style*="display: none;"])');
+      const radioButtons = currentQuestion.querySelectorAll('input[type="radio"]');
+      const selectedRadioButton = currentQuestion.querySelector('input[type="radio"]:checked');
+
+      if (event.key === 'ArrowUp') {
+        if (selectedRadioButton) {
+          selectedRadioButton.checked = false;
+        }
+        radioButtons[0].checked = true; // Select "Yes" option
+      } else if (event.key === 'ArrowDown') {
+        if (selectedRadioButton) {
+          selectedRadioButton.checked = false;
+        }
+        radioButtons[1].checked = true; // Select "No" option
+      } else if (event.key === 'ArrowRight') {
+        const nextButton = currentQuestion.querySelector('.next-btn');
+        nextButton.click(); // Simulate click on the next button
+      }
+    }
+
+    startBtn.addEventListener('click', function() {
+      // Retrieve demographic data
+      age = document.getElementById('age').value;
+        gender = document.getElementById('gender').value;
+        programmingYear = document.getElementById('programmingYear').value;
+        preferredLanguage = document.getElementById('preferredLanguage').value;
+
+        // Store demographic data alongside other information
+        // demographicData = {
+        //     age: age,
+        //     gender: gender,
+        //     programmingYear: programmingYear,
+        //     preferredLanguage: preferredLanguage
+        // };
+        // Show the question container and the first question
+        questionContainer.style.display = 'block';
+        document.getElementById('question1').style.display = 'block';
+        // Hide the start button
+        startBtn.style.display = 'none';
+        demogDiv.style.display = 'none';
+        taskStart = Date.now(); // Record start time for the first task
+    });
+
+    nextButtons.forEach(function(button, index) {
+      button.addEventListener('click', function() {
+        const nextQuestionId = button.getAttribute('data-next');
+        const nextQuestion = document.getElementById(nextQuestionId);
+        // const selectedOption = nextQuestion.querySelector('input[type="radio"]:checked').value;
+
+        // Record end time for the completed task
+        const taskEnd = Date.now();
+        // Calculate duration of completed task
+        const taskDuration = (taskEnd - taskStart) / 1000; // Convert to seconds
+        taskDurations.push(taskDuration.toFixed(2)); // Store task duration
+        taskNumbers.push(currentTaskNumber); // Store task number
+        // selectedOptions.push(selectedOption); // Store selected option
+
+        // Hide current question
+        button.closest('.question').style.display = 'none';
+
+        // Show next question or submit page if it's the last question
+        if (nextQuestionId === 'submitPage') {
+          submitPage.style.display = 'block';
+          // Generate and download CSV file with task durations and numbers
+          downloadCSV(gender, age, preferredLanguage, programmingYear, taskNumbers,taskDurations);
+        } else {
+          nextQuestion.style.display = 'block';
+          taskStart = Date.now(); // Record start time for the next task
+          currentTaskNumber++; // Increment task number
+        }
+      });
+    });
+
+    // Listen for keydown events to handle keyboard navigation
+    document.addEventListener('keydown', handleKeyboardNavigation);
+
+    // Function to generate and download CSV file with task durations and numbers
+    function downloadCSV(gender, age, preferredLanguage, programmingYear, taskNumbers, taskDurations) {
+      const headerRow = 'Gender, Age, Preferred Language, Programming Year, Task Number, Task Duration';
+      const csvContent = "data:text/csv;charset=utf-8," +
+                   `${headerRow}\n` +
+                   taskNumbers.map((taskNumber, index) => `${gender}, ${age}, ${preferredLanguage}, ${programmingYear}, ${taskNumber}, ${taskDurations[index]}`).join("\n");
+
+      const encodedUri = encodeURI(csvContent);
+      const link = document.createElement("a");
+      link.setAttribute("href", encodedUri);
+      link.setAttribute("download", "task_durations.csv");
+      document.body.appendChild(link); // Required for Firefox
+      link.click(); // Trigger the download
+    }
+  });
+</script>
+{% endblock %} 
