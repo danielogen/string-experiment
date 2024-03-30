@@ -18,9 +18,9 @@ def home():
 # @app.route("/protocol")
 # def protocol():
 #     return render_template("protocol.html")
-@app.route("/pre-expriment")
-def decline():
-    return render_template("pre-expriment.html")
+@app.route("/pre-experiment")
+def pre_experiment():
+    return render_template("pre-experiment.html")
 
 @app.route("/experiment")
 def experiment():
