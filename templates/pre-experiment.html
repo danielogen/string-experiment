@@ -67,7 +67,7 @@
     
     <div id="questionContainer" style="display: none;">
       <h1>Practice Tasks</h1>
-      Before you start the actual experiment, we thought it is a good idea to practice with a few tasks. There are four tasks and you can repeat as many times as you need. The symbol <b>"+"</b> is for concatenation and <b>"{ }"</b> for interpolation (embedding). Read the task and select THE OPTION YOU THINK IS CORRECT by pressing <b>1, 2, 3 or 4</b>. Once you feel confident to start the actual experiment, click <b>"PROCEED"</b> at the button right corner of practice task 4 or press <b>"ENTER / RETURN"</b> key on your keyboard. To repeat the task, simply press <b>RIGHT ARROW KEY</b>.
+      Before you start the actual experiment, we thought it is a good idea to practice with a few tasks. There are four tasks and you can repeat as many times as you need. The symbol <b>"+"</b> is for concatenation and <b>"{ }"</b> for interpolation (embedding). Read the task and select <b>THE OPTION YOU THINK IS CORRECT</b> by pressing <b>1, 2, 3 or 4</b>. Once you feel confident to start the actual experiment, click <b>"PROCEED"</b> at the button right corner of practice task 4 or press <b>"ENTER / RETURN"</b> key on your keyboard. To repeat the task, simply press <b>RIGHT ARROW KEY</b>.
       <br />
       <br />
       <div id="question1" class="question" style="display: none;">
@@ -89,79 +89,52 @@
           &nbsp;&nbsp;2. "Hello World" <br />
           &nbsp;&nbsp;3. "World " <br />
           &nbsp;&nbsp;4. "There" <br />
-          <input type="hidden" class="btn btn-success next-btn" data-next="question2" />
-        <!-- <form>
-          <div class="form-group">
-            <div class="form-check">
-              <input type="radio" class="form-check-input" id="q1Yes" name="q1" value="1">
-              <label class="form-check-label" for="q1Yes">YES</label>
-            </div>
-            <div class="form-check">
-              <input type="radio" class="form-check-input" id="q1No" name="q1" value="2">
-              <label class="form-check-label" for="q1No">NO</label>
-            </div>
-          </div>
           <input type="hidden" value="Concatenated" id="Concatenated" />
           <input type="hidden" class="btn btn-success next-btn" data-next="question2" />
-        </form> -->
       </div>
       <div id="question2" class="question" style="display: none;">
-        <h4>Task 2 of 4:</h4>
+        <h4>Task 2 of 4: The "{ }" symbol is for interpolation. Press 1, 2, 3 or 4 to select the correct interpolation.</h4>
         <pre>
-            <code>
-                a = 30
-                b = 15
-                c = 4 * 3
-                "....." + a * b "....." 
-            </code>
-        </pre>
-      <form>
-        <div class="form-group">
-          <div class="form-check">
-            <input type="radio" class="form-check-input" id="q1Yes" name="q1" value="1">
-            <label class="form-check-label" for="q1Yes">YES</label>
-          </div>
-          <div class="form-check">
-            <input type="radio" class="form-check-input" id="q1No" name="q1" value="2">
-            <label class="form-check-label" for="q1No">NO</label>
-          </div>
-        </div>
-        <input type="hidden" value="Concatenated" id="Concatenated" />
-        <input type="hidden" class="btn btn-success next-btn" data-next="question3" />
-      </form>
+          <code>
+            a = "Hello "
+            b = "World"
+
+            "{b}{a}"
+          </code>
+      </pre>
+      <!-- A. "....." + 4 * 3 + "....." -->
+      <!-- B. "....." + ${4 * 3} + "....." -->
+      Options: <br />
+      &nbsp;&nbsp;1. "World Hello" <br />
+      &nbsp;&nbsp;2. "Hello World" <br />
+      &nbsp;&nbsp;3. "World " <br />
+      &nbsp;&nbsp;4. "There" <br />
+      <input type="hidden" value="Concatenated" id="Concatenated" />
+      <input type="hidden" class="btn btn-success next-btn" data-next="question3" />
     </div>
     <div id="question3" class="question" style="display: none;">
-      <h4>Task 3 of 4:</h4>
+      <h4>Task 3 of 4: The "+" symbol is for concatenation. Press 1, 2, 3 or 4 to select the correct concatenation.</h4>
       <!-- "....." + |a * b| + "...." + |c|+ "...." -->
       <!-- B. |....." + a * b + "...." + c + "..| -->
       <pre>
           <code>
-              a = 30
-              b = 15
-              c = 4 * 3
+              a = "Hi"
+              b = "There"
+              c = 4
 
-              "....." + |a * b| + "...." + |c|+ "...."
+               c + b + a
           </code>
       </pre>
-    <form>
-      <div class="form-group">
-        <div class="form-check">
-          <input type="radio" class="form-check-input" id="q1Yes" name="q1" value="1">
-          <label class="form-check-label" for="q1Yes">YES</label>
-        </div>
-        <div class="form-check">
-          <input type="radio" class="form-check-input" id="q1No" name="q1" value="2">
-          <label class="form-check-label" for="q1No">NO</label>
-        </div>
-      </div>
+      Options: <br />
+      &nbsp;&nbsp;1. "Hi There 4" <br />
+      &nbsp;&nbsp;2. "Hi 4 There" <br />
+      &nbsp;&nbsp;3. "4 There Hi " <br />
+      &nbsp;&nbsp;4. "There 4 Hi" <br />
       <input type="hidden" value="Concatenated" id="Concatenated" />
       <input type="hidden" class="btn btn-success next-btn" data-next="question4" />
-    </form>
   </div>
   <div id="question4" class="question" style="display: none;">
-    <h4>Task 4 of 4:</h4>
-    <!-- A. '.....' + {expression['variable']} + '.....' -->
-    <!-- B. '.....' + {expression[variable]}+ '.....' -->
+    <h4>Task 4 of 4: The "{ }" symbol is for interpolation. Press 1, 2, 3 or 4 to select the correct interpolation.</h4>
     <pre>
         <code>
             a = 30
@@ -171,17 +144,7 @@
             "....." + a * b| + "...." + c|+ "...."
         </code>
     </pre>
-  <form>
-    <div class="form-group">
-      <div class="form-check">
-        <input type="radio" class="form-check-input" id="q1Yes" name="q1" value="1">
-        <label class="form-check-label" for="q1Yes">YES</label>
-      </div>
-      <div class="form-check">
-        <input type="radio" class="form-check-input" id="q1No" name="q1" value="2">
-        <label class="form-check-label" for="q1No">NO</label>
-      </div>
-    </div>
+  
     <p align="right">
       <br>
       <button type="button" class="btn btn-warning next-btn" data-next="question1">Try Again</button>
