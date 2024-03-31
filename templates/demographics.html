@@ -1,0 +1,66 @@
+{% extends "base.html" %} 
+{% block title %}Home{% endblock %} 
+
+{% block content %}
+<div class="container">
+    <br>
+    <!-- Demographic information -->
+    <div id="demog">
+    <h3>Demographic Information</h3>
+    <p>Please be assured that the details you provide will be used strictly for research purposes only. All data will be anonymized and handled with the utmost confidentiality, ensuring that individual responses cannot be linked back to participants.</p>
+    <form method="post" action="/process">
+    <div class="row">
+        <div class="col-md-6">
+          <label for="age">How old are you?</label>
+          <input type="number" min="18" max="150" class="form-control" required id="age" name="age">
+        </div>
+        <div class="col-md-6">
+            <label for="gender">What is you gender?</label>
+            <select class="form-control" id="gender" name="gender" required>
+                <option value="0">Select...</option>
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+                <option value="3">Non-binary</option>
+                <option value="4">Prefer Not to Say</option>
+            </select>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-6">
+            <label for="COY">College Year:</label>
+            <select class="form-control" id="COY" name="COY">
+                <option value="0">N/A</option>
+                <option value="1">Freshman</option>
+                <option value="2">Sophomore</option>
+                <option value="3">Junior</option>
+                <option value="4">Senior</option>
+                <option value="5">Graduate</option>
+                <!-- <option value="Professional">Professional</option> -->
+                <!-- Add more options as needed -->
+            </select>
+        </div>
+        <div class="col-md-6">
+            <label for="YOE">Years of Computer Programming Experience:</label>
+            <select class="form-control" id="YOE" name="YOE">
+                <option value="None">Select...</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5+</option>
+            </select>
+        </div>
+    </div>
+    </div>
+    <br />
+    <!-- Start button -->
+    <input type="submit" id="startBtn" class="btn btn-success" value="Next >>">
+  </div>
+  </form>
+  
+    
+
+<!-- Bootstrap JS (optional, if you need JavaScript features) -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+{% endblock %} 
