@@ -2,6 +2,7 @@ from flask import Flask, redirect, url_for, render_template,session, jsonify, re
 from datetime import datetime
 import randomize
 import csv
+import os
 
 app = Flask(__name__)
 
@@ -48,14 +49,15 @@ def save():
     # Data format: { questionId: { userAnswer: "X", correctAnswer: "Y" }, ... }
 
    # Format the filename with the current datetime to ensure uniqueness
-    filename = f'response_{datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}.csv'
+    filename = f'reponses.csv'
+    file_exists = os.path.exists(filename)
     
-    with open(filename, 'w', newline='') as file:
+    with open(filename, 'a', newline='') as file:
         writer = csv.writer(file)
-        
         # Write the header row
         # CAT - Category, CA = Correct Answer, UA = User Answer
-        writer.writerow(['Gender', 'Age', 'COY', 'YOE', 'TaskID', 'CAT', 'CA', 'UA', 'Duration'])
+        if not file_exists:
+            writer.writerow(['Gender', 'Age', 'COY', 'YOE', 'TaskID', 'CAT', 'CA', 'UA', 'Duration'])
         
         # Write the data rows
         for question_id, answers in data.items():
