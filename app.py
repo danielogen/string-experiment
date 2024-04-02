@@ -49,7 +49,7 @@ def save():
     # Data format: { questionId: { userAnswer: "X", correctAnswer: "Y" }, ... }
 
    # Format the filename with the current datetime to ensure uniqueness
-    filename = f'data/reponses.csv'
+    filename = f'data/responses.csv'
     file_exists = os.path.exists(filename)
     
     with open(filename, 'a', newline='') as file:
