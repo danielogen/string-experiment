@@ -12,12 +12,21 @@
     <div class="row">
         <div class="col-md-6">
           <label for="age">How old are you?</label>
-          <input type="number" min="18" max="150" class="form-control" required id="age" name="age">
+          <!-- <input type="number" min="18" max="150" class="form-control" required id="age" name="age"> -->
+          <select class="form-control" id="age" name="age" required>
+            <option value="0">Select...</option>
+            <option value="18-24">18-24</option>
+            <option value="25-35">25-35</option>
+            <option value="35-44">35-44</option>
+            <option value="45-54">45-54</option>
+            <option value="55-64">55-64</option>
+            <option value="65 or Over">65 or Over</option>
+        </select>
         </div>
         <div class="col-md-6">
             <label for="gender">What is you gender?</label>
             <select class="form-control" id="gender" name="gender" required>
-                <option value="0">Select...</option>
+                <option value="">Select...</option>
                 <option value="1">Male</option>
                 <option value="2">Female</option>
                 <option value="3">Non-binary</option>
@@ -29,7 +38,8 @@
     <div class="row">
         <div class="col-md-6">
             <label for="COY">College Year:</label>
-            <select class="form-control" id="COY" name="COY">
+            <select class="form-control" id="COY" name="COY" required>
+                <option value="">Select...</option>
                 <option value="Others">Not Applicable</option>
                 <option value="Freshman">Freshman</option>
                 <option value="Sophomore">Sophomore</option>
@@ -42,8 +52,8 @@
         </div>
         <div class="col-md-6">
             <label for="YOE">Years of Computer Programming Experience:</label>
-            <select class="form-control" id="YOE" name="YOE">
-                <option value="None">Select...</option>
+            <select class="form-control" id="YOE" name="YOE" required>
+                <option value="">Select...</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>

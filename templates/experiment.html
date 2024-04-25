@@ -9,62 +9,59 @@
       <br />
       <div id="1" class="question" style="display: none;">
         <h4>Task 1 of 16: The "+" symbol represents concatenation. Press 1, 2, 3 or 4 to select the correct concatenation. </h4>
-        <!-- c = 4 * 3 -->
-        <!-- ("....." + a * b + ".....") -->
           <pre>
               <code>
-                a = "John "
-                b = "Doe"
-
-                a + b
+                "John Deo, " + "3" + "1"
               </code>
           </pre>
-          <!-- A. "....." + 4 * 3 + "....." -->
-          <!-- B. "....." + ${4 * 3} + "....." -->
           Options: <br />
-          &nbsp;&nbsp;1. "JohnDoe" <br />
-          &nbsp;&nbsp;2. "John Doe" <br />
+          &nbsp;&nbsp;1. "JohnDoe, 31" <br />
+          &nbsp;&nbsp;2. "John Doe, 31" <br />
           &nbsp;&nbsp;3. "Doe " <br />
           &nbsp;&nbsp;4. "John There" <br />
           <input type="hidden" value="Concatenation" id="category" /> <!--1. concatenation -->
           <input type="hidden" value="2" id="answer" />
+          <input type="hidden" value="Level-1" id="complexity" />
           <input type="hidden" class="btn btn-success next-btn" data-next="2" />
       </div>
       <div id="2" class="question" style="display: none;">
         <h4>Task 2 of 16: The "{ }" symbol represents interpolation. Press 1, 2, 3 or 4 to select the correct interpolation.</h4>
           <pre>
             <code>
-              a = "John "
-              b = "Doe"
-
-              "{b}{a}"
+              "{5}{6}, John Deo"
             </code>
         </pre>
         <!-- A. "....." + 4 * 3 + "....." -->
         <!-- B. "....." + ${4 * 3} + "....." -->
         Options: <br />
-        &nbsp;&nbsp;1. "DoeJohn " <br />
-        &nbsp;&nbsp;2. "John Doe" <br />
-        &nbsp;&nbsp;3. "Doe John" <br />
+        &nbsp;&nbsp;1. "56, John Deo" <br />
+        &nbsp;&nbsp;2. "John Doe, 56" <br />
+        &nbsp;&nbsp;3. "56, Doe John" <br />
         &nbsp;&nbsp;4. "Doe John There" <br />
       <input type="hidden" value="Interpolation" id="category" /> <!--2. interpolation -->
       <input type="hidden" value="1" id="answer" />
+      <input type="hidden" value="Level-1" id="complexity" />
       <input type="hidden" class="btn btn-success next-btn" data-next="3" />
     </div>
     <div id="3" class="question" style="display: none;">
       <h4>Task 3 of 16: The "+" symbol represents concatenation. Press 1, 2, 3 or 4 to select the correct concatenation.</h4>
         <pre>
             <code>
-              "123 Main St, " + ("Springfield, " + "OH")
+              a = "123 Main St, "
+              b = "Springfield, "
+              c = "OH"
+
+              a + (b + c)
             </code>
         </pre>
         Options: <br />
-        &nbsp;&nbsp;1. "123 Main St, ("Springfield, OH")" <br />
+        &nbsp;&nbsp;1. "123 Main St, (Springfield, OH)" <br />
         &nbsp;&nbsp;2. "123 Main St,Springfield,OH"  <br />
         &nbsp;&nbsp;3. "123 Main St,(Springfield,OH)" <br />
         &nbsp;&nbsp;4. "123 Main St, Springfield, OH" <br />
       <input type="hidden" value="Concatenation" id="category" /> <!-- 1. concatenation-->
-      <input type="hidden" value="4" id="answer" />
+      <input type="hidden" value="1" id="answer" />
+      <input type="hidden" value="Level-2" id="complexity" />
       <input type="hidden" class="btn btn-success next-btn" data-next="4" />
   </div>
   <div id="4" class="question" style="display: none;">
@@ -75,16 +72,17 @@
             b = "Springfield, "
             c = "OH"
             
-            "{b} {a} {c}"
+            "{b} ({a} {c})"
         </code>
     </pre>
     Options: <br />
-    &nbsp;&nbsp;1. "Springfield,123 Main St,OH" <br />
-    &nbsp;&nbsp;2. "Springfield, 123 Main St, OH" <br />
-    &nbsp;&nbsp;3. "123 Main St, Springfield, OH" <br />
-    &nbsp;&nbsp;4. "123 Main St,Springfield,OH" <br />
+    &nbsp;&nbsp;1. "Springfield,(123 Main St),OH" <br />
+    &nbsp;&nbsp;2. "Springfield, (123 Main St, OH)" <br />
+    &nbsp;&nbsp;3. "123 Main St, (Springfield, OH)" <br />
+    &nbsp;&nbsp;4. "(123 Main St,Springfield),OH" <br />
   <input type="hidden" value="Interpolation" id="category" />  <!-- interpolation -->
   <input type="hidden" value="2" id="answer" />
+  <input type="hidden" value="Level-2" id="complexity" />
   <input type="hidden" class="btn btn-success next-btn" data-next="5" />
   </div>
   <div id="5" class="question" style="display: none;">
@@ -93,82 +91,81 @@
     <!-- ("....." + a * b + ".....") -->
       <pre>
           <code>
-            date = "12-25-2024"
-            eventName = "MeetUp"
+            name = "Daniel" 
+            score = 50
+            total = 100
 
-            You're invited to " + eventName + " on " + date
+            "Hello " + name + ", your score is " + score + " out of " + total + "."
           </code>
       </pre>
       <!-- A. "....." + 4 * 3 + "....." -->
       <!-- B. "....." + ${4 * 3} + "....." -->
       Options: <br />
-      &nbsp;&nbsp;1. "You're invited to MeetUp" <br />
-      &nbsp;&nbsp;2. "You'reinvitedtoMeetUpon12-25-2024" <br />
-      &nbsp;&nbsp;3. "You're invited to MeetUp on 12-25-2024" <br />
-      &nbsp;&nbsp;4. "You're invited on 12-25-2024 to MeetUp" <br />
+      &nbsp;&nbsp;1. "Hello name, your score is score out of total." <br />
+      &nbsp;&nbsp;2. "Hello Daniel, your 50 is score out of total." <br />
+      &nbsp;&nbsp;3. "Hello Daniel, your score is 50 out of 100." <br />
+      &nbsp;&nbsp;4. "Hello Daniel, your score is 50 out of 100." <br />
       <input type="hidden" value="Concatenation" id="category" /> <!--1. concatenation -->
       <input type="hidden" value="3" id="answer" />
+      <input type="hidden" value="4" id="answer" />
+      <input type="hidden" value="Level-2" id="complexity" />
       <input type="hidden" class="btn btn-success next-btn" data-next="6" />
   </div>
   <div id="6" class="question" style="display: none;">
     <h4>Task 6 of 16: The "{ }" symbol represents interpolation. Press 1, 2, 3 or 4 to select the correct interpolation.</h4>
       <pre>
         <code>
-          date = "12-25-2024"
-          eventName = "Sightseeing"
+          name = "Daniel" 
+          score = 50
+          total = 100
 
-          "You're invited on {date} to {eventName}"
+          "{name}, out of {total}, you scored {score}."
         </code>
     </pre>
     <!-- A. "....." + 4 * 3 + "....." -->
     <!-- B. "....." + ${4 * 3} + "....." -->
     Options: <br />
-    &nbsp;&nbsp;1. "You're invited to Sightseeing" <br />
-    &nbsp;&nbsp;2. "You'reinvitedtoSightseeing12-25-2024" <br />
-    &nbsp;&nbsp;3. "You're invited to Sightseeing on 12-25-2024" <br />
-    &nbsp;&nbsp;4. "You're invited on 12-25-2024 to Sightseeing" <br />
+    &nbsp;&nbsp;1. "Hello Daniel, your score is 50 out of 100." <br />
+    &nbsp;&nbsp;2. "Daniel, you scored 50 out of 100." <br />
+    &nbsp;&nbsp;3. "Daniel, out of 100, you scored 50" <br />
+    &nbsp;&nbsp;4. "Daniel, out of 50, you scored 100" <br />
   <input type="hidden" value="Interpolation" id="category" /> <!--2. interpolation -->
   <input type="hidden" value="4" id="answer" />
+  <input type="hidden" value="Level-2" id="complexity" />
   <input type="hidden" class="btn btn-success next-btn" data-next="7" />
 </div>
 <div id="7" class="question" style="display: none;">
   <h4>Task 7 of 16: The "+" symbol represents concatenation. Press 1, 2, 3 or 4 to select the correct concatenation.</h4>
     <pre>
         <code>
-            a = "Hi"
-            b = "There"
-            c = 4
-            
-            c + b + a
+          "World, " + 1 + 2 + 3 + (1 + 1 + 1 + 1) + ("5" + (6 + 7))
         </code>
     </pre>
     Options: <br />
-    &nbsp;&nbsp;1. "Hi There 4" <br />
-    &nbsp;&nbsp;2. "Hi 4 There" <br />
-    &nbsp;&nbsp;3. "4 There Hi " <br />
-    &nbsp;&nbsp;4. "4 Hi There" <br />
+    &nbsp;&nbsp;1. World, 123("5"(67)) <br />
+    &nbsp;&nbsp;2.  World, 123("5")) <br />
+    &nbsp;&nbsp;3. 123(1111)("5"(67)), World <br />
+    &nbsp;&nbsp;4. World, 123(1111)("5"(67)) <br />
   <input type="hidden" value="Concatenation" id="category" />
-  <input type="hidden" value="3" id="answer" />
+  <input type="hidden" value="level-4" id="complexity" />
+  <input type="hidden" value="4" id="answer" />
   <input type="hidden" class="btn btn-success next-btn" data-next="8" />
 </div>
 <div id="8" class="question" style="display: none;">
 <h4>Task 8 of 16: The "{ }" symbol represents interpolation. Press 1, 2, 3 or 4 to select the correct interpolation.</h4>
   <pre>
     <code>
-        a = "Hi"
-        b = "There"
-        c = 4
-        
-        "{b} {a} {c}"
+      "{1} {2} {3} {({9} {9} {9} {1})} World { ({"5"} {(67)} )}"
     </code>
 </pre>
 Options: <br />
-&nbsp;&nbsp;1. "Hi There 4" <br />
-&nbsp;&nbsp;2. "There 4 Hi" <br />
-&nbsp;&nbsp;3. "4 There Hi " <br />
-&nbsp;&nbsp;4. "There Hi 4" <br />
+&nbsp;&nbsp;1. "1 2 3 (9 9 9 1) World ("5" (67) )" <br />
+&nbsp;&nbsp;2. "123(9991)World("5"(67))" <br />
+&nbsp;&nbsp;3. ""1 2 3 ({9} {9} {9} 1) World ("5" (67) )" <br />
+&nbsp;&nbsp;4. ""1 2 3 9 9 9 1 World "5"67" <br />
 <input type="hidden" value="Interpolation" id="category" />
-<input type="hidden" value="4" id="answer" />
+<input type="hidden" value="1" id="answer" />
+<input type="hidden" value="level-4" id="complexity" />
 <input type="hidden" class="btn btn-success next-btn" data-next="9" />
 </div>
 
@@ -176,20 +173,22 @@ Options: <br />
   <h4>Task 9 of 16: The "+" symbol represents concatenation. Press 1, 2, 3 or 4 to select the correct concatenation. </h4>
       <pre>
         <code>
-            a = "Hi"
-            b = "There"
+            a = 5
+            b = 6
             c = 4
+            d = 10
             
-            b + c + a
+            "a = " + a + " d = " + d  + " c = " +  c + " b = " + b
         </code>
     </pre>
     Options: <br />
-    &nbsp;&nbsp;1.  "There Hi 4" <br />
-    &nbsp;&nbsp;2. "There 4 Hi" <br />
-    &nbsp;&nbsp;3. "4 There Hi " <br />
-    &nbsp;&nbsp;4. "4 Hi There" <br />
+    &nbsp;&nbsp;1.  "a = 5 b = 6 c = 4 d = 10" <br />
+    &nbsp;&nbsp;2. "a = 5 d = 6 c = 10 b = 4" <br />
+    &nbsp;&nbsp;3. "a = 5 d = 10 c = 4 b = 6 " <br />
+    &nbsp;&nbsp;4. "b = 6 d = 10 c = 4 a = 5 "" <br />
     <input type="hidden" value="Concatenation" id="category" /> <!--1. concatenation -->
-    <input type="hidden" value="2" id="answer" />
+    <input type="hidden" value="3" id="answer" />
+    <input type="hidden" value="Level-3" id="complexity" />
     <input type="hidden" class="btn btn-success next-btn" data-next="10" />
 </div>
 
@@ -197,20 +196,22 @@ Options: <br />
   <h4>Task 10 of 16: The "{ }" symbol represents interpolation. Press 1, 2, 3 or 4 to select the correct interpolation.</h4>
     <pre>
       <code>
-          a = "Hi"
-          b = "There"
-          c = 4
-          
-          "{a} {c} {b}"
+        a = 5
+        b = 6
+        c = 4
+        d = 10
+        
+        "a = {a} b = {d} c = {b}  d = {c}"
       </code>
   </pre>
   Options: <br />
-  &nbsp;&nbsp;1. "Hi 4 There" <br />
-  &nbsp;&nbsp;2. "Hi There 4" <br />
-  &nbsp;&nbsp;3. "4 There Hi " <br />
-  &nbsp;&nbsp;4. "4 Hi There" <br />
+  &nbsp;&nbsp;1. "a = 4 b = 5 c = 6  d = 10" <br />
+  &nbsp;&nbsp;2. "a = 5 b = 10 c = 6  d = 4" <br />
+  &nbsp;&nbsp;3. "a = {a} b = {d} c = {b}  d = {c}" <br />
+  &nbsp;&nbsp;4. "a = a b = b c = b  d = c" <br />
 <input type="hidden" value="Interpolation" id="category" /> <!--2. interpolation -->
-<input type="hidden" value="1" id="answer" />
+<input type="hidden" value="2" id="answer" />
+<input type="hidden" value="Level-3" id="complexity" />
 <input type="hidden" class="btn btn-success next-btn" data-next="11" />
 </div>
 
@@ -273,6 +274,7 @@ Options: <br />
 &nbsp;&nbsp;4. "C:\\Users\\Peter\\Documents" <br />
 <input type="hidden" value="Concatenation" id="category" />
 <input type="hidden" value="4" id="answer" />
+<input type="hidden" value="Level-2" id="complexity" />
 <input type="hidden" class="btn btn-success next-btn" data-next="14" />
 </div>
 <div id="14" class="question" style="display: none;">
@@ -293,6 +295,7 @@ Options: <br />
 &nbsp;&nbsp;4. "C:\\Users\\Peter\\Documents" <br />
 <input type="hidden" value="Interpolation" id="category" /> 
 <input type="hidden" value="2" id="answer" />
+<input type="hidden" value="Level-2" id="complexity" />
 <input type="hidden" class="btn btn-success next-btn" data-next="15" />
 </div>
 
@@ -317,6 +320,7 @@ Options: <br />
 &nbsp;&nbsp;4. "https://example.com?user=john" <br />
 <input type="hidden" value="Concatenation" id="category" /> <!--1. concatenation -->
 <input type="hidden" value="1" id="answer" />
+<input type="hidden" value="Level-3" id="complexity" />
 <input type="hidden" class="btn btn-success next-btn" data-next="16" />
 </div>
 
@@ -339,6 +343,7 @@ Options: <br />
 &nbsp;&nbsp;4. "https://https:///example.com//home/?user=john" <br />
 <input type="hidden" value="Interpolation" id="category" /> <!-- interpolation -->
 <input type="hidden" value="3" id="answer" />
+<input type="hidden" value="Level-3" id="complexity" />
 <!-- <input type="hidden" class="btn btn-success next-btn" data-next="17" /> -->
 </div>
 

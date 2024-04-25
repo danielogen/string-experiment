@@ -1,4 +1,4 @@
-from flask import Flask, redirect, url_for, render_template,session, jsonify, request
+from flask import Flask, redirect, url_for, render_template,session, jsonify, request,send_file
 from datetime import datetime
 import randomize
 import csv
@@ -77,6 +77,15 @@ def save():
             ])
 
     return jsonify({'status': 'success'})
+
+@app.route("/responses")
+def responses():
+    return render_template("responses.html")
+
+@app.route('/download')
+def download():
+    path = 'data/responses.csv'
+    return send_file(path, as_attachment=True)
 
 if __name__ == "__main__":
     app.secret_key="v_qf*A&Juo)~9'D"
