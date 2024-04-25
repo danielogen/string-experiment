@@ -59,7 +59,7 @@ def save():
         # Write the header row
         # CAT - Category, CA = Correct Answer, UA = User Answer
         if not file_exists:
-            writer.writerow(['UID','Gender', 'Age', 'COY', 'YOE', 'TaskID', 'CAT', 'CA', 'UA', 'Duration'])
+            writer.writerow(['UID','Gender', 'Age', 'COY', 'YOE', 'TaskID', 'Complexity', 'CAT', 'CA', 'UA', 'Duration'])
         
         # Write the data rows
         for question_id, answers in data.items():
@@ -70,6 +70,7 @@ def save():
                 session['COY'],
                 session['YOE'],
                 question_id,
+                answers['complexity'],
                 answers['category'],
                 answers['correctAnswer'],
                 answers['userAnswer'], 

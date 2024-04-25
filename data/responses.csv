@@ -1,0 +1,17 @@
+UID,Gender,Age,COY,YOE,TaskID,Complexity,CAT,CA,UA,Duration
+a442f9f4,1,25-35,Graduate,5,1,L-1,Concatenation,2,2,8.663
+a442f9f4,1,25-35,Graduate,5,2,L-1,Interpolation,1,1,2.921
+a442f9f4,1,25-35,Graduate,5,3,L-2,Concatenation,1,1,13.585
+a442f9f4,1,25-35,Graduate,5,4,L-2,Interpolation,2,2,10.397
+a442f9f4,1,25-35,Graduate,5,5,L-2,Concatenation,3,3,11.983
+a442f9f4,1,25-35,Graduate,5,6,L-2,Interpolation,4,3,9.976
+a442f9f4,1,25-35,Graduate,5,7,L-4,Concatenation,4,4,38.203
+a442f9f4,1,25-35,Graduate,5,8,L-4,Interpolation,1,1,9.551
+a442f9f4,1,25-35,Graduate,5,9,L-3,Concatenation,3,3,26.268
+a442f9f4,1,25-35,Graduate,5,10,L-3,Interpolation,2,2,8.832
+a442f9f4,1,25-35,Graduate,5,11,L-4,Concatenation,3,3,24.668
+a442f9f4,1,25-35,Graduate,5,12,L-3,Interpolation,1,1,8.083
+a442f9f4,1,25-35,Graduate,5,13,L-2,Concatenation,4,4,11.262
+a442f9f4,1,25-35,Graduate,5,14,L-2,Interpolation,2,2,6.699
+a442f9f4,1,25-35,Graduate,5,15,L-3,Concatenation,1,1,17.055
+a442f9f4,1,25-35,Graduate,5,16,L-3,Interpolation,3,2,17.471

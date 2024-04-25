@@ -21,7 +21,7 @@
           &nbsp;&nbsp;4. "John There" <br />
           <input type="hidden" value="Concatenation" id="category" /> <!--1. concatenation -->
           <input type="hidden" value="2" id="answer" />
-          <input type="hidden" value="Level-1" id="complexity" />
+          <input type="hidden" value="L-1" id="complexity" />
           <input type="hidden" class="btn btn-success next-btn" data-next="2" />
       </div>
       <div id="2" class="question" style="display: none;">
@@ -40,7 +40,7 @@
         &nbsp;&nbsp;4. "Doe John There" <br />
       <input type="hidden" value="Interpolation" id="category" /> <!--2. interpolation -->
       <input type="hidden" value="1" id="answer" />
-      <input type="hidden" value="Level-1" id="complexity" />
+      <input type="hidden" value="L-1" id="complexity" />
       <input type="hidden" class="btn btn-success next-btn" data-next="3" />
     </div>
     <div id="3" class="question" style="display: none;">
@@ -61,7 +61,7 @@
         &nbsp;&nbsp;4. "123 Main St, Springfield, OH" <br />
       <input type="hidden" value="Concatenation" id="category" /> <!-- 1. concatenation-->
       <input type="hidden" value="1" id="answer" />
-      <input type="hidden" value="Level-2" id="complexity" />
+      <input type="hidden" value="L-2" id="complexity" />
       <input type="hidden" class="btn btn-success next-btn" data-next="4" />
   </div>
   <div id="4" class="question" style="display: none;">
@@ -82,7 +82,7 @@
     &nbsp;&nbsp;4. "(123 Main St,Springfield),OH" <br />
   <input type="hidden" value="Interpolation" id="category" />  <!-- interpolation -->
   <input type="hidden" value="2" id="answer" />
-  <input type="hidden" value="Level-2" id="complexity" />
+  <input type="hidden" value="L-2" id="complexity" />
   <input type="hidden" class="btn btn-success next-btn" data-next="5" />
   </div>
   <div id="5" class="question" style="display: none;">
@@ -108,7 +108,7 @@
       <input type="hidden" value="Concatenation" id="category" /> <!--1. concatenation -->
       <input type="hidden" value="3" id="answer" />
       <input type="hidden" value="4" id="answer" />
-      <input type="hidden" value="Level-2" id="complexity" />
+      <input type="hidden" value="L-2" id="complexity" />
       <input type="hidden" class="btn btn-success next-btn" data-next="6" />
   </div>
   <div id="6" class="question" style="display: none;">
@@ -131,7 +131,7 @@
     &nbsp;&nbsp;4. "Daniel, out of 50, you scored 100" <br />
   <input type="hidden" value="Interpolation" id="category" /> <!--2. interpolation -->
   <input type="hidden" value="4" id="answer" />
-  <input type="hidden" value="Level-2" id="complexity" />
+  <input type="hidden" value="L-2" id="complexity" />
   <input type="hidden" class="btn btn-success next-btn" data-next="7" />
 </div>
 <div id="7" class="question" style="display: none;">
@@ -147,7 +147,7 @@
     &nbsp;&nbsp;3. 123(1111)("5"(67)), World <br />
     &nbsp;&nbsp;4. World, 123(1111)("5"(67)) <br />
   <input type="hidden" value="Concatenation" id="category" />
-  <input type="hidden" value="level-4" id="complexity" />
+  <input type="hidden" value="L-4" id="complexity" />
   <input type="hidden" value="4" id="answer" />
   <input type="hidden" class="btn btn-success next-btn" data-next="8" />
 </div>
@@ -165,7 +165,7 @@ Options: <br />
 &nbsp;&nbsp;4. ""1 2 3 9 9 9 1 World "5"67" <br />
 <input type="hidden" value="Interpolation" id="category" />
 <input type="hidden" value="1" id="answer" />
-<input type="hidden" value="level-4" id="complexity" />
+<input type="hidden" value="L-4" id="complexity" />
 <input type="hidden" class="btn btn-success next-btn" data-next="9" />
 </div>
 
@@ -188,7 +188,7 @@ Options: <br />
     &nbsp;&nbsp;4. "b = 6 d = 10 c = 4 a = 5 "" <br />
     <input type="hidden" value="Concatenation" id="category" /> <!--1. concatenation -->
     <input type="hidden" value="3" id="answer" />
-    <input type="hidden" value="Level-3" id="complexity" />
+    <input type="hidden" value="L-3" id="complexity" />
     <input type="hidden" class="btn btn-success next-btn" data-next="10" />
 </div>
 
@@ -211,7 +211,7 @@ Options: <br />
   &nbsp;&nbsp;4. "a = a b = b c = b  d = c" <br />
 <input type="hidden" value="Interpolation" id="category" /> <!--2. interpolation -->
 <input type="hidden" value="2" id="answer" />
-<input type="hidden" value="Level-3" id="complexity" />
+<input type="hidden" value="L-3" id="complexity" />
 <input type="hidden" class="btn btn-success next-btn" data-next="11" />
 </div>
 
@@ -219,19 +219,16 @@ Options: <br />
   <h4>Task 11 of 16: The "+" symbol represents concatenation. Press 1, 2, 3 or 4 to select the correct concatenation.</h4>
     <pre>
         <code>
-            a = "Hi"
-            b = "There"
-            c = 4
-            
-            b + "There"
+          "(0 " + " 1)" + "(1 " + " 1)" +...+ m + n-1 + l-2 = m(m+1)/2 = O(m^2)
         </code>
-    </pre>
+    </pre> 
     Options: <br />
-    &nbsp;&nbsp;1. "There Hi" <br />
-    &nbsp;&nbsp;2. "ThereHi" <br />
-    &nbsp;&nbsp;3. "ThereThere" <br />
-    &nbsp;&nbsp;4. "There There" <br />
+    &nbsp;&nbsp;1. "(01)(11) ... mn-1l-2 = m(m1)/2 = O(m^2)" <br />
+    &nbsp;&nbsp;2. "12...mn-1l-2=mm1/2=0m^2" <br />
+    &nbsp;&nbsp;3. "(0 1) (1 1) ... m n-1 l-2 = m(m 1)/2 = O(m^2)" <br />
+    &nbsp;&nbsp;4. "1 2 ... mn-1l-2 = mm1/2 = 0m^2" <br />
   <input type="hidden" value="Concatenation" id="category" />
+  <input type="hidden" value="L-4" id="complexity" />
   <input type="hidden" value="3" id="answer" />
   <input type="hidden" class="btn btn-success next-btn" data-next="12" />
   </div>
@@ -240,20 +237,17 @@ Options: <br />
 <h4>Task 12 of 16: The "{ }" symbol represents interpolation. Press 1, 2, 3 or 4 to select the correct interpolation.</h4>
   <pre>
       <code>
-          a = "Hi"
-          b = "There"
-          c = 4
-          
-          "Hi {a}"
+        "{(0 2 1)} {(1 2 1)} {...} n {m-1} {l-2} = m(m 1)/2 = O(m^2)"
       </code>
   </pre>
   Options: <br />
-  &nbsp;&nbsp;1. "Hi Hi" <br />
-  &nbsp;&nbsp;2. "HiHi" <br />
-  &nbsp;&nbsp;3. "Hi " <br />
-  &nbsp;&nbsp;4. "Hi There" <br />
+  &nbsp;&nbsp;1. "(0 2 1) (1 2 1) ... n m-1 l-2 = m(m 1)/2 = O(m^2)" <br />
+  &nbsp;&nbsp;2. "3 4 ... n m-1 l-2 = m(m 1)/2 = O(m^2)" <br />
+  &nbsp;&nbsp;3. "(021)(121) ... nm-1l-2 = m(m 1)/2 = O(m^2)" <br />
+  &nbsp;&nbsp;4. " ... n m-1 l-2 = m(m 1)/2 = O(m^2)" <br />
 <input type="hidden" value="Interpolation" id="category" />
 <input type="hidden" value="1" id="answer" />
+<input type="hidden" value="L-3" id="complexity" />
 <input type="hidden" class="btn btn-success next-btn" data-next="13" />
 </div>
 <div id="13" class="question" style="display: none;">
@@ -274,7 +268,7 @@ Options: <br />
 &nbsp;&nbsp;4. "C:\\Users\\Peter\\Documents" <br />
 <input type="hidden" value="Concatenation" id="category" />
 <input type="hidden" value="4" id="answer" />
-<input type="hidden" value="Level-2" id="complexity" />
+<input type="hidden" value="L-2" id="complexity" />
 <input type="hidden" class="btn btn-success next-btn" data-next="14" />
 </div>
 <div id="14" class="question" style="display: none;">
@@ -295,7 +289,7 @@ Options: <br />
 &nbsp;&nbsp;4. "C:\\Users\\Peter\\Documents" <br />
 <input type="hidden" value="Interpolation" id="category" /> 
 <input type="hidden" value="2" id="answer" />
-<input type="hidden" value="Level-2" id="complexity" />
+<input type="hidden" value="L-2" id="complexity" />
 <input type="hidden" class="btn btn-success next-btn" data-next="15" />
 </div>
 
@@ -320,7 +314,7 @@ Options: <br />
 &nbsp;&nbsp;4. "https://example.com?user=john" <br />
 <input type="hidden" value="Concatenation" id="category" /> <!--1. concatenation -->
 <input type="hidden" value="1" id="answer" />
-<input type="hidden" value="Level-3" id="complexity" />
+<input type="hidden" value="L-3" id="complexity" />
 <input type="hidden" class="btn btn-success next-btn" data-next="16" />
 </div>
 
@@ -343,7 +337,7 @@ Options: <br />
 &nbsp;&nbsp;4. "https://https:///example.com//home/?user=john" <br />
 <input type="hidden" value="Interpolation" id="category" /> <!-- interpolation -->
 <input type="hidden" value="3" id="answer" />
-<input type="hidden" value="Level-3" id="complexity" />
+<input type="hidden" value="L-3" id="complexity" />
 <!-- <input type="hidden" class="btn btn-success next-btn" data-next="17" /> -->
 </div>
 
@@ -468,6 +462,7 @@ Options: <br />
       const userAnswer = event.key;
       const correctAnswer = currentQuestion.querySelector('#answer').value;
       const category = currentQuestion.querySelector('#category').value;
+      const complexity = currentQuestion.querySelector('#complexity').value;
 
       // Check if the key pressed is a valid answer option
       if(['1', '2', '3', '4'].includes(userAnswer)) {
@@ -476,7 +471,7 @@ Options: <br />
         duration = (endTime - startTime) / 1000; // Calculate duration in seconds
         console.log(duration);
 
-        userAnswers[questionId] = { category, correctAnswer, userAnswer, duration };
+        userAnswers[questionId] = { complexity, category, correctAnswer, userAnswer, duration };
 
         startTime = new Date();
         // console.log(duration)
