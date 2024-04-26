@@ -6,7 +6,7 @@ import os
 import uuid
 
 app = Flask(__name__)
-
+app.secret_key="v_qf*A&Juo)~9'D"
 # @app.route("/")
 # def home():
 #     return render_template("consent.html")
@@ -89,5 +89,4 @@ def download():
     return send_file(path, as_attachment=True)
 
 if __name__ == "__main__":
-    app.secret_key="v_qf*A&Juo)~9'D"
     app.run(debug=True)
