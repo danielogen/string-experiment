@@ -5,6 +5,13 @@ import csv
 import os
 import uuid
 import pandas as pd
+import boto3
+from boto3.s3.transfer import S3Transfer
+from dotenv import load_dotenv
+load_dotenv()
+
+s3_client = boto3.client('s3', aws_access_key_id=os.environ['AccessKey'], aws_secret_access_key=os.environ['SecreteAccessKey'])
+transfer = S3Transfer(s3_client)
 
 app = Flask(__name__)
 app.secret_key="v_qf*A&Juo)~9'D"
@@ -103,6 +110,7 @@ def save():
     # Create DataFrame
     df = pd.DataFrame(data_for_df)
     df.to_csv(f"/tmp/{session['uid']}_response.csv")
+    transfer.upload_file(f"/tmp/{session['uid']}_response.csv", "string-experiment", os.environ['AccessKey'], extra_args={'ServerSideEncryption': "AES256"})
 
     return jsonify({'status': 'success'})
 
@@ -112,7 +120,7 @@ def responses():
 
 @app.route('/download')
 def download():
-    path = f'/tmp/{session['uid']}_response.csv'
+    path = f"/tmp/{session['uid']}_response.csv"
     return send_file(path, as_attachment=True)
 
 if __name__ == "__main__":
