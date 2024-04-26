@@ -4,9 +4,11 @@ import randomize
 import csv
 import os
 import uuid
+import pandas as pd
 
 app = Flask(__name__)
 app.secret_key="v_qf*A&Juo)~9'D"
+
 # @app.route("/")
 # def home():
 #     return render_template("consent.html")
@@ -51,31 +53,56 @@ def save():
     # Data format: { questionId: { userAnswer: "X", correctAnswer: "Y" }, ... }
 
    # Format the filename with the current datetime to ensure uniqueness
-    filename = f'data/responses.csv'
-    file_exists = os.path.exists(filename)
+    # filename = ""
+    # if(os.environ['ENV'] != 1):
+    #     filename = f'data/responses.csv'
+    #     file_exists = os.path.exists(filename)
+    # else:
+    #     filename = "data/prod_responses.csv"
+    #     file_exists = os.path.exists(filename)
     
-    with open(filename, 'a', newline='') as file:
-        writer = csv.writer(file)
-        # Write the header row
-        # CAT - Category, CA = Correct Answer, UA = User Answer
-        if not file_exists:
-            writer.writerow(['UID','Gender', 'Age', 'COY', 'YOE', 'TaskID', 'Complexity', 'CAT', 'CA', 'UA', 'Duration'])
+    # with open(filename, '+a', newline='') as file:
+    #     writer = csv.writer(file)
+    #     # Write the header row
+    #     # CAT - Category, CA = Correct Answer, UA = User Answer
+    #     if not file_exists:
+    #         writer.writerow(['UID','Gender', 'Age', 'COY', 'YOE', 'TaskID', 'Complexity', 'CAT', 'CA', 'UA', 'Duration'])
         
-        # Write the data rows
-        for question_id, answers in data.items():
-            writer.writerow([
-                session['uid'],
-                session['gender'],
-                session['age'],
-                session['COY'],
-                session['YOE'],
-                question_id,
-                answers['complexity'],
-                answers['category'],
-                answers['correctAnswer'],
-                answers['userAnswer'], 
-                answers['duration']
-            ])
+    #     # Write the data rows
+    #     for question_id, answers in data.items():
+    #         writer.writerow([
+    #             session['uid'],
+    #             session['gender'],
+    #             session['age'],
+    #             session['COY'],
+    #             session['YOE'],
+    #             question_id,
+    #             answers['complexity'],
+    #             answers['category'],
+    #             answers['correctAnswer'],
+    #             answers['userAnswer'], 
+    #             answers['duration']
+    #         ])
+    data_for_df = [
+    {
+        'UID': session['uid'],
+        'Gender': session['gender'],
+        'Age': session['age'],
+        'COY': session['COY'],
+        'YOE': session['YOE'],
+        'TaskID': question_id,
+        'Complexity': answers['complexity'],
+        'CAT': answers['category'],
+        'CA': answers['correctAnswer'],
+        'UA': answers['userAnswer'],
+        'Duration': answers['duration']
+    }
+    for question_id, answers in data.items()
+    ]
+
+    # Create DataFrame
+    df = pd.DataFrame(data_for_df)
+    df.to_csv(f"{session['uid']}_response.csv")
 
     return jsonify({'status': 'success'})
 
