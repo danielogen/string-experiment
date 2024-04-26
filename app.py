@@ -102,7 +102,7 @@ def save():
 
     # Create DataFrame
     df = pd.DataFrame(data_for_df)
-    df.to_csv(f"{session['uid']}_response.csv")
+    df.to_csv(f"/tmp/{session['uid']}_response.csv")
 
     return jsonify({'status': 'success'})
 
@@ -112,7 +112,7 @@ def responses():
 
 @app.route('/download')
 def download():
-    path = 'data/responses.csv'
+    path = f'/tmp/{session['uid']}_response.csv'
     return send_file(path, as_attachment=True)
 
 if __name__ == "__main__":
