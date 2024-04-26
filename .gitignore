@@ -162,4 +162,3 @@ cython_debug/
 # OS files
 .DS_Store
 .vercel
-vercel.json
