@@ -21,7 +21,7 @@ To replicate the experiment, you can simply follow the steps below to setup the 
    venv\Scripts\activate
    ```
    - Install required dependencies using `pip3 install -r requirements.txt`
-   - Start the `experiment` by running `python3 app.py`. Ensure that port `5000` is open on your firewell. To interact with the experiment, go to your browser and type `localhost:5000`.
+   - Start the `experiment` by running `python3 app.py`. Ensure that port `5000` is open on your firewell. To interact with the experiment, go to your browser and type `localhost:5000` or `127.0.0.1:5000`.
 
 2. **Running locally with "Docker for Desktop"**
    - Download and install `Docker fo Desktop` using the [link](https://www.docker.com/products/docker-desktop/). Once you are all set, run the commands below;

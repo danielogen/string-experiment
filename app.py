@@ -1,11 +1,12 @@
-from flask import Flask, redirect, url_for, render_template,session, jsonify, request
+from flask import Flask, redirect, url_for, render_template,session, jsonify, request,send_file
 from datetime import datetime
 import randomize
 import csv
 import os
+import uuid
 
 app = Flask(__name__)
-
+app.secret_key="v_qf*A&Juo)~9'D"
 # @app.route("/")
 # def home():
 #     return render_template("consent.html")
@@ -41,6 +42,7 @@ def process_demographics():
     session['COY'] = request.form['COY'] # college year
     session['YOE'] = request.form['YOE'] # year of programming experience
     session['gender'] = request.form['gender']
+    session['uid'] = str(uuid.uuid1())[:8]
     return redirect(url_for('pre_tasks'))
 
 @app.route('/save', methods=['POST'])
@@ -57,16 +59,18 @@ def save():
         # Write the header row
         # CAT - Category, CA = Correct Answer, UA = User Answer
         if not file_exists:
-            writer.writerow(['Gender', 'Age', 'COY', 'YOE', 'TaskID', 'CAT', 'CA', 'UA', 'Duration'])
+            writer.writerow(['UID','Gender', 'Age', 'COY', 'YOE', 'TaskID', 'Complexity', 'CAT', 'CA', 'UA', 'Duration'])
         
         # Write the data rows
         for question_id, answers in data.items():
             writer.writerow([
+                session['uid'],
                 session['gender'],
                 session['age'],
                 session['COY'],
                 session['YOE'],
                 question_id,
+                answers['complexity'],
                 answers['category'],
                 answers['correctAnswer'],
                 answers['userAnswer'], 
@@ -75,6 +79,14 @@ def save():
 
     return jsonify({'status': 'success'})
 
+@app.route("/responses")
+def responses():
+    return render_template("responses.html")
+
+@app.route('/download')
+def download():
+    path = 'data/responses.csv'
+    return send_file(path, as_attachment=True)
+
 if __name__ == "__main__":
-    app.secret_key="v_qf*A&Juo)~9'D"
     app.run(debug=True)
