@@ -27,7 +27,7 @@ To replicate the experiment, you can simply follow the steps below to setup the 
    - Download and install `Docker fo Desktop` using the [link](https://www.docker.com/products/docker-desktop/). Once you are all set, run the commands below;
    ```
    git clone <project>
-   cd /project
+   cd /<project>
    docker compose up -d
    ```
   - That's all 😎!! the tool will be running on port `5000`. To interact with the experiment, go to your browser and type `localhost:5000`. You should be able to see the consent page of the experiment.
