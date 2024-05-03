@@ -1,0 +1,13 @@
+use Libraries.Compute.Statistics.DataFrame
+use Libraries.Interface.Controls.Charts.BoxPlot
+DataFrame frame
+frame:Load("data/responses_phase_3.csv")
+frame:AddSelectedColumns("Duration")
+frame:AddSelectedFactors("CAT")
+BoxPlot chart = frame:BoxPlot()
+chart:SetColorPaletteToCalm()
+chart:SetTitle("Duration")
+chart:SetXAxisTitle("Task")
+chart:SetYAxisTitle("Duration (seconds)")
+chart:Display(1000,750)
+ chart:Save("output/BoxPlotTaskOverall.svg")

@@ -1,0 +1,8 @@
+use Libraries.Compute.Statistics.DataFrame
+use Libraries.Compute.Statistics.Tests.CompareMeans
+DataFrame frame
+frame:Load("data/responses_phase_3.csv")
+frame:AddSelectedColumns("Duration")
+frame:AddSelectedFactors("Complexity")
+CompareMeans result = frame:CompareMeans()
+output result:GetFormalSummary()

@@ -1,0 +1,605 @@
+<div class= "quorum-wrapper" role= "region" ><div tabindex= "-1" style= "user-select: none;" ><svg viewBox="0 0 1000 750"
+	xmlns="http://www.w3.org/2000/svg" id="svg_1964434661_430202415412936291924" tabindex="-1" class="quorum-chart" role="application">
+
+	<rect width="100.0%" height="100.0%" x="0.0%" y="0.0%" id="svg_1964434661_430202415412936291924_1047934137" tabindex="-1" fill="rgb(255.0,255.0,255.0)" role="graphics-object" aria-hidden="true" />
+
+	<text x="885.0" y="106.0" font-size="21px" font-family="Arial" text-anchor="left" id="svg_1964434661_430202415412936291924_20156341" tabindex="-1" class="quorum-chart-text" fill="rgb(0.0,0.0,0.0)" aria-hidden="true"></text>
+
+	<g id="svg_1964434661_430202415412936291924_1643141512_legend" tabindex="-1" class="quorum-chart-legendentry" fill="rgb(0.0,0.0,255.0)" fill-opacity="1.0" aria-label="Duration4 points, 1 of 1 series." aria-hidden="true"><rect width="96.0" height="22.0" x="879.0" y="109.0" id="svg_1964434661_430202415412936291924-1643141512" tabindex="-1" class="quorum-chart-selection-outline" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" />
+<rect width="15.0" height="15.0" x="885.0" y="113.0" id="svg_1964434661_430202415412936291924_1111897955" tabindex="-1" class="quorum-chart-rect" fill="rgb(57.0,126.0,123.0)" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="" stroke-width="1.0" aria-hidden="true" />
+<text x="907.0" y="128.0" font-size="15px" font-family="Arial" text-anchor="left" id="svg_1964434661_430202415412936291924_1509309988" tabindex="-1" class="quorum-chart-text" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" aria-label="Duration" aria-hidden="true">Duration</text>
+</g>
+
+	<rect width="0.0" height="0.0" x="88.0" y="750.0" id="svg_1964434661_430202415412936291924_1717433286" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="88.0" y="750.0" id="svg_1964434661_430202415412936291924_1756819670" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="88.0" y="750.0" id="svg_1964434661_430202415412936291924_1078262677" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="88.0" y="750.0" id="svg_1964434661_430202415412936291924_178604517" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="88.0" y="750.0" id="svg_1964434661_430202415412936291924_57624756" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="88.0" y="750.0" id="svg_1964434661_430202415412936291924_1543518287" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="88.0" y="750.0" id="svg_1964434661_430202415412936291924_998242313" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="88.0" y="750.0" id="svg_1964434661_430202415412936291924_464872674" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="88.0" y="750.0" id="svg_1964434661_430202415412936291924_1659286984" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="88.0" y="750.0" id="svg_1964434661_430202415412936291924_1064905627" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="88.0" y="750.0" id="svg_1964434661_430202415412936291924_2072130509" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="88.0" y="750.0" id="svg_1964434661_430202415412936291924_1260440107" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="88.0" y="688.0" id="svg_1964434661_430202415412936291924_482307698" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="88.0" y="688.0" id="svg_1964434661_430202415412936291924_1793899405" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="88.0" y="688.0" id="svg_1964434661_430202415412936291924_1765702" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="88.0" y="688.0" id="svg_1964434661_430202415412936291924_1302725372" tabindex="-1" aria-hidden="true" />
+
+	<text x="175.0" y="707.0" font-size="15px" font-family="Arial" text-anchor="left" transform="rotate(0.0, 175.0, 707)" id="svg_1964434661_430202415412936291924_713898436" tabindex="-1" class="quorum-chart-text" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" aria-label=", 1 of 4 labels." aria-hidden="true">L-1</text>
+
+	<text x="373.0" y="707.0" font-size="15px" font-family="Arial" text-anchor="left" transform="rotate(0.0, 373.0, 707)" id="svg_1964434661_430202415412936291924_632475595" tabindex="-1" class="quorum-chart-text" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" aria-label=", 2 of 4 labels." aria-hidden="true">L-2</text>
+
+	<text x="570.0" y="707.0" font-size="15px" font-family="Arial" text-anchor="left" transform="rotate(0.0, 570.0, 707)" id="svg_1964434661_430202415412936291924_1920305914" tabindex="-1" class="quorum-chart-text" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" aria-label=", 3 of 4 labels." aria-hidden="true">L-3</text>
+
+	<text x="768.0" y="707.0" font-size="15px" font-family="Arial" text-anchor="left" transform="rotate(0.0, 768.0, 707)" id="svg_1964434661_430202415412936291924_263833514" tabindex="-1" class="quorum-chart-text" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" aria-label=", 4 of 4 labels." aria-hidden="true">L-4</text>
+
+	<rect width="0.0" height="0.0" x="0.0" y="688.0" id="svg_1964434661_430202415412936291924_565881091" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="0.0" y="688.0" id="svg_1964434661_430202415412936291924_1618984457" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="0.0" y="688.0" id="svg_1964434661_430202415412936291924_1621254922" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="0.0" y="688.0" id="svg_1964434661_430202415412936291924_702500163" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="0.0" y="688.0" id="svg_1964434661_430202415412936291924_1574509514" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="0.0" y="688.0" id="svg_1964434661_430202415412936291924_1087072654" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="0.0" y="688.0" id="svg_1964434661_430202415412936291924_864221358" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="0.0" y="688.0" id="svg_1964434661_430202415412936291924_1617174216" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="0.0" y="688.0" id="svg_1964434661_430202415412936291924_1979080261" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="0.0" y="688.0" id="svg_1964434661_430202415412936291924_1860886124" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="0.0" y="688.0" id="svg_1964434661_430202415412936291924_1250499735" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="0.0" y="688.0" id="svg_1964434661_430202415412936291924_173791568" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="0.0" y="688.0" id="svg_1964434661_430202415412936291924_1293462056" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="0.0" y="688.0" id="svg_1964434661_430202415412936291924_1966670937" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="0.0" y="688.0" id="svg_1964434661_430202415412936291924_2002174925" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="0.0" y="688.0" id="svg_1964434661_430202415412936291924_588449070" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="0.0" y="688.0" id="svg_1964434661_430202415412936291924_735228558" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="0.0" y="688.0" id="svg_1964434661_430202415412936291924_376725601" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="0.0" y="688.0" id="svg_1964434661_430202415412936291924_1476235721" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="0.0" y="688.0" id="svg_1964434661_430202415412936291924_1828508781" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="0.0" y="688.0" id="svg_1964434661_430202415412936291924_1376017854" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="0.0" y="688.0" id="svg_1964434661_430202415412936291924_1732663543" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="0.0" y="688.0" id="svg_1964434661_430202415412936291924_1552870927" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="0.0" y="688.0" id="svg_1964434661_430202415412936291924_1448805967" tabindex="-1" aria-hidden="true" />
+
+	<rect width="0.0" height="0.0" x="88.0" y="688.0" id="svg_1964434661_430202415412936291924_641882263" tabindex="-1" aria-hidden="true" />
+
+	<rect width="790.0" height="2.0" x="88.0" y="599.0" id="svg_1964434661_430202415412936291924_1930837320" tabindex="-1" fill="rgb(191.25,191.25,191.25)" fill-opacity="1.0" aria-hidden="true" />
+
+	<rect width="790.0" height="2.0" x="88.0" y="511.0" id="svg_1964434661_430202415412936291924_1489193907" tabindex="-1" fill="rgb(191.25,191.25,191.25)" fill-opacity="1.0" aria-hidden="true" />
+
+	<rect width="790.0" height="2.0" x="88.0" y="424.0" id="svg_1964434661_430202415412936291924_1453606810" tabindex="-1" fill="rgb(191.25,191.25,191.25)" fill-opacity="1.0" aria-hidden="true" />
+
+	<rect width="790.0" height="2.0" x="88.0" y="336.0" id="svg_1964434661_430202415412936291924_1645624121" tabindex="-1" fill="rgb(191.25,191.25,191.25)" fill-opacity="1.0" aria-hidden="true" />
+
+	<rect width="790.0" height="2.0" x="88.0" y="249.0" id="svg_1964434661_430202415412936291924_547923534" tabindex="-1" fill="rgb(191.25,191.25,191.25)" fill-opacity="1.0" aria-hidden="true" />
+
+	<rect width="790.0" height="2.0" x="88.0" y="161.0" id="svg_1964434661_430202415412936291924_1660223291" tabindex="-1" fill="rgb(191.25,191.25,191.25)" fill-opacity="1.0" aria-hidden="true" />
+
+	<rect width="790.0" height="2.0" x="88.0" y="73.0" id="svg_1964434661_430202415412936291924_379124840" tabindex="-1" fill="rgb(191.25,191.25,191.25)" fill-opacity="1.0" aria-hidden="true" />
+
+	<text x="74.0" y="696.0" font-size="15px" font-family="Arial" text-anchor="left" id="svg_1964434661_430202415412936291924_1157943921" tabindex="-1" class="quorum-chart-text" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" aria-label=" label. " aria-hidden="true">0</text>
+
+	<text x="66.0" y="609.0" font-size="15px" font-family="Arial" text-anchor="left" id="svg_1964434661_430202415412936291924_544966217" tabindex="-1" class="quorum-chart-text" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" aria-label=" label. " aria-hidden="true">20</text>
+
+	<text x="66.0" y="522.0" font-size="15px" font-family="Arial" text-anchor="left" id="svg_1964434661_430202415412936291924_1706272858" tabindex="-1" class="quorum-chart-text" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" aria-label=" label. " aria-hidden="true">40</text>
+
+	<text x="66.0" y="434.0" font-size="15px" font-family="Arial" text-anchor="left" id="svg_1964434661_430202415412936291924_882471736" tabindex="-1" class="quorum-chart-text" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" aria-label=" label. " aria-hidden="true">60</text>
+
+	<text x="66.0" y="347.0" font-size="15px" font-family="Arial" text-anchor="left" id="svg_1964434661_430202415412936291924_1475192960" tabindex="-1" class="quorum-chart-text" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" aria-label=" label. " aria-hidden="true">80</text>
+
+	<text x="58.0" y="259.0" font-size="15px" font-family="Arial" text-anchor="left" id="svg_1964434661_430202415412936291924_727197178" tabindex="-1" class="quorum-chart-text" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" aria-label=" label. " aria-hidden="true">100</text>
+
+	<text x="58.0" y="172.0" font-size="15px" font-family="Arial" text-anchor="left" id="svg_1964434661_430202415412936291924_1406253491" tabindex="-1" class="quorum-chart-text" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" aria-label=" label. " aria-hidden="true">120</text>
+
+	<text x="58.0" y="84.0" font-size="15px" font-family="Arial" text-anchor="left" id="svg_1964434661_430202415412936291924_749604930" tabindex="-1" class="quorum-chart-text" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" aria-label=" label. " aria-hidden="true">140</text>
+
+	<rect width="790.0" height="2.0" x="88.0" y="688.0" id="svg_1964434661_430202415412936291924_1615801298" tabindex="-1" fill="rgb(0.0,0.0,0.0)" aria-hidden="true" />
+
+	<text x="446.0" y="731.0" font-size="21px" font-family="Arial" text-anchor="left" id="svg_1964434661_430202415412936291924-373097727" tabindex="-1" class="quorum-chart-text" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" aria-hidden="true">Task ID</text>
+
+	<rect width="3.0" height="618.0" x="85.0" y="72.0" id="svg_1964434661_430202415412936291924_1521238608" tabindex="-1" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" aria-hidden="true" />
+
+	<text x="44.0" y="473.0" font-size="21px" font-family="Arial" text-anchor="left" transform="rotate(270.0, 44.0, 473)" id="svg_1964434661_430202415412936291924_2082509879" tabindex="-1" class="quorum-chart-text" fill="rgb(0.0,0.0,0.0)" aria-hidden="true">Duration (seconds)</text>
+
+	<text x="185.0" y="54.0" font-size="28px" font-family="Arial" text-anchor="left" id="svg_1964434661_430202415412936291924_576894497" tabindex="-1" class="quorum-chart-text" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" aria-hidden="true">Task Completion Duration Measured in Second</text>
+
+	<g tabindex="-1"><g width="790.0" height="613.0" x="88.0" y="75.0" id="svg_1964434661_430202415412936291924_1862994526" tabindex="0" class="quorum-chart-element quorum-chart-area quorum-chart-information-list" role="graphics-object" aria-label="Task Completion Duration Measured in Second , Box Plot with 4 plots. To navigate the chart, use Enter to move into the list of plots or use the arrow keys to navigate the chart information." aria-hidden="false"><rect width="790.0" height="613.0" x="88.0" y="75.0" id="svg_1964434661_430202415412936291924_1862994526_boundingbox" tabindex="-1" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="0.0" aria-hidden="true" /><g id="svg_1964434661_430202415412936291924_1643141512_1123559518" tabindex="-1" class="quorum-chart-plot quorum-chart-plot-list" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" role="graphics-object" aria-label="L-1 plot,  11.484, box from  6.808 to  15.221, whiskers from  1.07 to  23.177, 2 outliers, 1 of 4 plots. To navigate the list of plots, use the arrow keys to move between plots in list order, use Page Up or Page Down to move between plots by median value order, use Shift + Enter to return to the plot group list." aria-hidden="false"><g id="svg_1964434661_430202415412936291924_1643141512_1123559518_2092709730" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="Minimum 1.07 To navigate the list of plot summary items, use the arrow keys to move between plot summary items in list order, use Shift + Enter to return to the plots list." aria-hidden="false"><rect width="100.0" height="2.0" x="137.0" y="683.0" id="svg_1964434661_430202415412936291924_1643141512_1123559518_2092709730_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true">
+		<title>Duration, L-1 group, Minimum: 1.07</title>
+	</rect></g><g id="svg_1964434661_430202415412936291924_1643141512_1123559518_1233595751" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="Interquartile range 8.413" aria-hidden="false"><rect width="100.0" height="38.0" x="137.0" y="622.0" id="svg_1964434661_430202415412936291924_1643141512_1123559518_1233595751_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true">
+		<title>Duration, L-1 group, Interquartile range: 8.413</title>
+	</rect></g><g id="svg_1964434661_430202415412936291924_1643141512_1123559518_793293778" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="1st Quartile 6.808" aria-hidden="false"><rect width="100.0" height="2.0" x="137.0" y="658.0" id="svg_1964434661_430202415412936291924_1643141512_1123559518_793293778_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true">
+		<title>Duration, L-1 group, 1st Quartile: 6.808</title>
+	</rect></g><g id="svg_1964434661_430202415412936291924_1643141512_1123559518_1966355106" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="Median 11.484" aria-hidden="false"><rect width="100.0" height="2.0" x="137.0" y="637.0" id="svg_1964434661_430202415412936291924_1643141512_1123559518_1966355106_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true">
+		<title>Duration, L-1 group, Median: 11.484</title>
+	</rect></g><g id="svg_1964434661_430202415412936291924_1643141512_1123559518_1233327519" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="3rd Quartile 15.221" aria-hidden="false"><rect width="100.0" height="2.0" x="137.0" y="621.0" id="svg_1964434661_430202415412936291924_1643141512_1123559518_1233327519_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true">
+		<title>Duration, L-1 group, 3rd Quartile: 15.221</title>
+	</rect></g><g id="svg_1964434661_430202415412936291924_1643141512_1123559518_269892014" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="Maximum 23.177" aria-hidden="false"><rect width="100.0" height="2.0" x="137.0" y="586.0" id="svg_1964434661_430202415412936291924_1643141512_1123559518_269892014_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true">
+		<title>Duration, L-1 group, Maximum: 23.177</title>
+	</rect></g><g id="svg_1964434661_430202415412936291924_1643141512_1123559518_172215878" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="Outlier 30.866" aria-hidden="false"><circle cx="188.0" cy="553.0" r="4.0" id="svg_1964434661_430202415412936291924_1643141512_1123559518_172215878_item" tabindex="-1" class="quorum-chart-circle" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="1.0" aria-hidden="true">
+		<title>Duration, L-1 group, Outlier: 30.866</title>
+	</circle></g><g id="svg_1964434661_430202415412936291924_1643141512_1123559518_1112456099" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="Outlier 36.866 End of list order." aria-hidden="false"><circle cx="188.0" cy="527.0" r="4.0" id="svg_1964434661_430202415412936291924_1643141512_1123559518_1112456099_item" tabindex="-1" class="quorum-chart-circle" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="1.0" aria-hidden="true">
+		<title>Duration, L-1 group, Outlier: 36.866 End of list order.</title>
+	</circle></g></g><g id="svg_1964434661_430202415412936291924_1643141512_913065088" tabindex="-1" class="quorum-chart-plot quorum-chart-plot-list" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" role="graphics-object" aria-label="L-2 plot,  18.3395, box from  11.5015 to  23.654, whiskers from  4.953 to  37.501, 7 outliers, 2 of 4 plots." aria-hidden="false"><g id="svg_1964434661_430202415412936291924_1643141512_913065088_1634723627" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="Minimum 4.953 To navigate the list of plot summary items, use the arrow keys to move between plot summary items in list order, use Shift + Enter to return to the plots list." aria-hidden="false"><rect width="100.0" height="2.0" x="334.0" y="666.0" id="svg_1964434661_430202415412936291924_1643141512_913065088_1634723627_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true">
+		<title>Duration, L-2 group, Minimum: 4.953</title>
+	</rect></g><g id="svg_1964434661_430202415412936291924_1643141512_913065088_2121995675" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="Interquartile range 12.1525" aria-hidden="false"><rect width="100.0" height="55.0" x="334.0" y="584.0" id="svg_1964434661_430202415412936291924_1643141512_913065088_2121995675_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true">
+		<title>Duration, L-2 group, Interquartile range: 12.1525</title>
+	</rect></g><g id="svg_1964434661_430202415412936291924_1643141512_913065088_500618423" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="1st Quartile 11.5015" aria-hidden="false"><rect width="100.0" height="2.0" x="334.0" y="637.0" id="svg_1964434661_430202415412936291924_1643141512_913065088_500618423_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true">
+		<title>Duration, L-2 group, 1st Quartile: 11.5015</title>
+	</rect></g><g id="svg_1964434661_430202415412936291924_1643141512_913065088_768776793" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="Median 18.3395" aria-hidden="false"><rect width="100.0" height="2.0" x="334.0" y="607.0" id="svg_1964434661_430202415412936291924_1643141512_913065088_768776793_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true">
+		<title>Duration, L-2 group, Median: 18.3395</title>
+	</rect></g><g id="svg_1964434661_430202415412936291924_1643141512_913065088_1393828949" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="3rd Quartile 23.654" aria-hidden="false"><rect width="100.0" height="2.0" x="334.0" y="584.0" id="svg_1964434661_430202415412936291924_1643141512_913065088_1393828949_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true">
+		<title>Duration, L-2 group, 3rd Quartile: 23.654</title>
+	</rect></g><g id="svg_1964434661_430202415412936291924_1643141512_913065088_2036775591" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="Maximum 37.501" aria-hidden="false"><rect width="100.0" height="2.0" x="334.0" y="523.0" id="svg_1964434661_430202415412936291924_1643141512_913065088_2036775591_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true">
+		<title>Duration, L-2 group, Maximum: 37.501</title>
+	</rect></g><g id="svg_1964434661_430202415412936291924_1643141512_913065088_746280996" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="Outlier 45.447" aria-hidden="false"><circle cx="385.0" cy="490.0" r="4.0" id="svg_1964434661_430202415412936291924_1643141512_913065088_746280996_item" tabindex="-1" class="quorum-chart-circle" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="1.0" aria-hidden="true">
+		<title>Duration, L-2 group, Outlier: 45.447</title>
+	</circle></g><g id="svg_1964434661_430202415412936291924_1643141512_913065088_1557989809" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="Outlier 45.723" aria-hidden="false"><circle cx="385.0" cy="488.0" r="4.0" id="svg_1964434661_430202415412936291924_1643141512_913065088_1557989809_item" tabindex="-1" class="quorum-chart-circle" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="1.0" aria-hidden="true">
+		<title>Duration, L-2 group, Outlier: 45.723</title>
+	</circle></g><g id="svg_1964434661_430202415412936291924_1643141512_913065088_2123222442" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="Outlier 47.501" aria-hidden="false"><circle cx="385.0" cy="481.0" r="4.0" id="svg_1964434661_430202415412936291924_1643141512_913065088_2123222442_item" tabindex="-1" class="quorum-chart-circle" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="1.0" aria-hidden="true">
+		<title>Duration, L-2 group, Outlier: 47.501</title>
+	</circle></g><g id="svg_1964434661_430202415412936291924_1643141512_913065088_1555990397" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="Outlier 50.787" aria-hidden="false"><circle cx="385.0" cy="466.0" r="4.0" id="svg_1964434661_430202415412936291924_1643141512_913065088_1555990397_item" tabindex="-1" class="quorum-chart-circle" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="1.0" aria-hidden="true">
+		<title>Duration, L-2 group, Outlier: 50.787</title>
+	</circle></g><g id="svg_1964434661_430202415412936291924_1643141512_913065088_1291367132" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="Outlier 52.447" aria-hidden="false"><circle cx="385.0" cy="459.0" r="4.0" id="svg_1964434661_430202415412936291924_1643141512_913065088_1291367132_item" tabindex="-1" class="quorum-chart-circle" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="1.0" aria-hidden="true">
+		<title>Duration, L-2 group, Outlier: 52.447</title>
+	</circle></g><g id="svg_1964434661_430202415412936291924_1643141512_913065088_1479140596" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="Outlier 62.457" aria-hidden="false"><circle cx="385.0" cy="415.0" r="4.0" id="svg_1964434661_430202415412936291924_1643141512_913065088_1479140596_item" tabindex="-1" class="quorum-chart-circle" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="1.0" aria-hidden="true">
+		<title>Duration, L-2 group, Outlier: 62.457</title>
+	</circle></g><g id="svg_1964434661_430202415412936291924_1643141512_913065088_1275028674" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="Outlier 73.63 End of list order." aria-hidden="false"><circle cx="385.0" cy="366.0" r="4.0" id="svg_1964434661_430202415412936291924_1643141512_913065088_1275028674_item" tabindex="-1" class="quorum-chart-circle" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="1.0" aria-hidden="true">
+		<title>Duration, L-2 group, Outlier: 73.63 End of list order.</title>
+	</circle></g></g><g id="svg_1964434661_430202415412936291924_1643141512_1930903395" tabindex="-1" class="quorum-chart-plot quorum-chart-plot-list" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" role="graphics-object" aria-label="L-3 plot,  18.583, box from  11.908000000000001 to  29.878999999999998, whiskers from  0.986 to  55.111, 2 outliers, 3 of 4 plots." aria-hidden="false"><g id="svg_1964434661_430202415412936291924_1643141512_1930903395_473666452" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="Minimum 0.986 To navigate the list of plot summary items, use the arrow keys to move between plot summary items in list order, use Shift + Enter to return to the plots list." aria-hidden="false"><rect width="100.0" height="2.0" x="531.0" y="683.0" id="svg_1964434661_430202415412936291924_1643141512_1930903395_473666452_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true">
+		<title>Duration, L-3 group, Minimum: 0.986</title>
+	</rect></g><g id="svg_1964434661_430202415412936291924_1643141512_1930903395_2138005960" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="Interquartile range 17.970999999999997" aria-hidden="false"><rect width="100.0" height="80.0" x="531.0" y="557.0" id="svg_1964434661_430202415412936291924_1643141512_1930903395_2138005960_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true">
+		<title>Duration, L-3 group, Interquartile range: 17.970999999999997</title>
+	</rect></g><g id="svg_1964434661_430202415412936291924_1643141512_1930903395_710623214" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="1st Quartile 11.908000000000001" aria-hidden="false"><rect width="100.0" height="2.0" x="531.0" y="635.0" id="svg_1964434661_430202415412936291924_1643141512_1930903395_710623214_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true">
+		<title>Duration, L-3 group, 1st Quartile: 11.908000000000001</title>
+	</rect></g><g id="svg_1964434661_430202415412936291924_1643141512_1930903395_859690270" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="Median 18.583" aria-hidden="false"><rect width="100.0" height="2.0" x="531.0" y="606.0" id="svg_1964434661_430202415412936291924_1643141512_1930903395_859690270_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true">
+		<title>Duration, L-3 group, Median: 18.583</title>
+	</rect></g><g id="svg_1964434661_430202415412936291924_1643141512_1930903395_553759818" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="3rd Quartile 29.878999999999998" aria-hidden="false"><rect width="100.0" height="2.0" x="531.0" y="557.0" id="svg_1964434661_430202415412936291924_1643141512_1930903395_553759818_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true">
+		<title>Duration, L-3 group, 3rd Quartile: 29.878999999999998</title>
+	</rect></g><g id="svg_1964434661_430202415412936291924_1643141512_1930903395_1896552614" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="Maximum 55.111" aria-hidden="false"><rect width="100.0" height="2.0" x="531.0" y="446.0" id="svg_1964434661_430202415412936291924_1643141512_1930903395_1896552614_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true">
+		<title>Duration, L-3 group, Maximum: 55.111</title>
+	</rect></g><g id="svg_1964434661_430202415412936291924_1643141512_1930903395_1431710377" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="Outlier 60.151" aria-hidden="false"><circle cx="582.0" cy="425.0" r="4.0" id="svg_1964434661_430202415412936291924_1643141512_1930903395_1431710377_item" tabindex="-1" class="quorum-chart-circle" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="1.0" aria-hidden="true">
+		<title>Duration, L-3 group, Outlier: 60.151</title>
+	</circle></g><g id="svg_1964434661_430202415412936291924_1643141512_1930903395_2116511124" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="Outlier 93.773 End of list order." aria-hidden="false"><circle cx="582.0" cy="278.0" r="4.0" id="svg_1964434661_430202415412936291924_1643141512_1930903395_2116511124_item" tabindex="-1" class="quorum-chart-circle" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="1.0" aria-hidden="true">
+		<title>Duration, L-3 group, Outlier: 93.773 End of list order.</title>
+	</circle></g></g><g id="svg_1964434661_430202415412936291924_1643141512_892931811" tabindex="-1" class="quorum-chart-plot quorum-chart-plot-list" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" role="graphics-object" aria-label="L-4 plot,  22.2715, box from  11.309999999999999 to  41.217, whiskers from  3.662 to  79.268, 1 outlier, 4 of 4 plots. End of list order. End of value order." aria-hidden="false"><g id="svg_1964434661_430202415412936291924_1643141512_892931811_1806880779" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="Minimum 3.662 To navigate the list of plot summary items, use the arrow keys to move between plot summary items in list order, use Shift + Enter to return to the plots list." aria-hidden="false"><rect width="100.0" height="2.0" x="728.0" y="671.0" id="svg_1964434661_430202415412936291924_1643141512_892931811_1806880779_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true">
+		<title>Duration, L-4 group, Minimum: 3.662</title>
+	</rect></g><g id="svg_1964434661_430202415412936291924_1643141512_892931811_446445803" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="Interquartile range 29.907" aria-hidden="false"><rect width="100.0" height="132.0" x="728.0" y="508.0" id="svg_1964434661_430202415412936291924_1643141512_892931811_446445803_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true">
+		<title>Duration, L-4 group, Interquartile range: 29.907</title>
+	</rect></g><g id="svg_1964434661_430202415412936291924_1643141512_892931811_1003755748" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="1st Quartile 11.309999999999999" aria-hidden="false"><rect width="100.0" height="2.0" x="728.0" y="638.0" id="svg_1964434661_430202415412936291924_1643141512_892931811_1003755748_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true">
+		<title>Duration, L-4 group, 1st Quartile: 11.309999999999999</title>
+	</rect></g><g id="svg_1964434661_430202415412936291924_1643141512_892931811_1805164661" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="Median 22.2715" aria-hidden="false"><rect width="100.0" height="2.0" x="728.0" y="590.0" id="svg_1964434661_430202415412936291924_1643141512_892931811_1805164661_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true">
+		<title>Duration, L-4 group, Median: 22.2715</title>
+	</rect></g><g id="svg_1964434661_430202415412936291924_1643141512_892931811_896138248" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="3rd Quartile 41.217" aria-hidden="false"><rect width="100.0" height="2.0" x="728.0" y="507.0" id="svg_1964434661_430202415412936291924_1643141512_892931811_896138248_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true">
+		<title>Duration, L-4 group, 3rd Quartile: 41.217</title>
+	</rect></g><g id="svg_1964434661_430202415412936291924_1643141512_892931811_243575009" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="Maximum 79.268" aria-hidden="false"><rect width="100.0" height="2.0" x="728.0" y="340.0" id="svg_1964434661_430202415412936291924_1643141512_892931811_243575009_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true">
+		<title>Duration, L-4 group, Maximum: 79.268</title>
+	</rect></g><g id="svg_1964434661_430202415412936291924_1643141512_892931811_1577167234" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" role="graphics-symbol" aria-label="Outlier 122.393 End of list order." aria-hidden="false"><circle cx="779.0" cy="153.0" r="4.0" id="svg_1964434661_430202415412936291924_1643141512_892931811_1577167234_item" tabindex="-1" class="quorum-chart-circle" fill="rgb(57.0,126.0,123.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="1.0" aria-hidden="true">
+		<title>Duration, L-4 group, Outlier: 122.393 End of list order.</title>
+	</circle></g></g></g><rect width="790.0" height="62.0" x="88.0" y="688.0" id="svg_1964434661_430202415412936291924_1524305331" tabindex="-1" class="quorum-chart-element quorum-chart-information-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" role="graphics-object" aria-label="X axis shows Task ID and ranges from L-1 to L-4" aria-hidden="false" /><rect width="88.0" height="613.0" x="0.0" y="75.0" id="svg_1964434661_430202415412936291924_1059524106" tabindex="-1" class="quorum-chart-element quorum-chart-information-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" role="graphics-object" aria-label="Y axis shows Duration (seconds) and ranges from 0 to 140" aria-hidden="false" /><rect width="97.0" height="613.0" x="878.0" y="75.0" id="svg_1964434661_430202415412936291924_443942537" tabindex="-1" class="quorum-chart-element quorum-chart-information-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" role="graphics-object" aria-label="Legend has values Duration" aria-hidden="false" /></g>
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_1123559518_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="186.0,584.0 202.0,568.0 170.0,568.0 " />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_1123559518_2092709730_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="239.0,684.0 247.0,676.0 247.0,692.0 " />
+
+	<g id="svg_1964434661_430202415412936291924_1643141512_1123559518_1711185459" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-hidden="true"><rect width="2.0" height="25.0" x="186.0" y="659.0" id="svg_1964434661_430202415412936291924_1643141512_1123559518_1711185459_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true" />
+</g>
+
+	<rect width="9.0" height="3.0" x="231.0" y="622.0" id="svg_1964434661_430202415412936291924_1643141512_1123559518_1233595751_bracket0" tabindex="-1" class="quorum-chart-selection-bracket" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" />
+
+	<rect width="3.0" height="38.0" x="240.0" y="622.0" id="svg_1964434661_430202415412936291924_1643141512_1123559518_1233595751_bracket1" tabindex="-1" class="quorum-chart-selection-bracket" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" />
+
+	<rect width="9.0" height="3.0" x="231.0" y="657.0" id="svg_1964434661_430202415412936291924_1643141512_1123559518_1233595751_bracket2" tabindex="-1" class="quorum-chart-selection-bracket" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_1123559518_1233595751_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="246.0,641.0 254.0,633.0 254.0,649.0 " />
+
+	<g id="svg_1964434661_430202415412936291924_1643141512_1123559518_489411441" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-hidden="true"><rect width="2.0" height="36.0" x="235.0" y="623.0" id="svg_1964434661_430202415412936291924_1643141512_1123559518_489411441_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true" />
+</g>
+
+	<g id="svg_1964434661_430202415412936291924_1643141512_1123559518_1141113940" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-hidden="true"><rect width="2.0" height="36.0" x="137.0" y="623.0" id="svg_1964434661_430202415412936291924_1643141512_1123559518_1141113940_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true" />
+</g>
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_1123559518_793293778_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="239.0,659.0 247.0,651.0 247.0,667.0 " />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_1123559518_1966355106_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="239.0,638.0 247.0,630.0 247.0,646.0 " />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_1123559518_1233327519_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="239.0,622.0 247.0,614.0 247.0,630.0 " />
+
+	<g id="svg_1964434661_430202415412936291924_1643141512_1123559518_25936709" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-hidden="true"><rect width="2.0" height="34.0" x="186.0" y="588.0" id="svg_1964434661_430202415412936291924_1643141512_1123559518_25936709_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true" />
+</g>
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_1123559518_269892014_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="239.0,587.0 247.0,579.0 247.0,595.0 " />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_1123559518_172215878_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="194.0,553.0 202.0,545.0 202.0,561.0 " />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_1123559518_1112456099_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="194.0,527.0 202.0,519.0 202.0,535.0 " />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_913065088_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="383.0,521.0 399.0,505.0 367.0,505.0 " />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_913065088_1634723627_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="436.0,667.0 444.0,659.0 444.0,675.0 " />
+
+	<g id="svg_1964434661_430202415412936291924_1643141512_913065088_1640612861" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-hidden="true"><rect width="2.0" height="28.0" x="383.0" y="639.0" id="svg_1964434661_430202415412936291924_1643141512_913065088_1640612861_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true" />
+</g>
+
+	<rect width="9.0" height="3.0" x="428.0" y="584.0" id="svg_1964434661_430202415412936291924_1643141512_913065088_2121995675_bracket0" tabindex="-1" class="quorum-chart-selection-bracket" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" />
+
+	<rect width="3.0" height="55.0" x="437.0" y="584.0" id="svg_1964434661_430202415412936291924_1643141512_913065088_2121995675_bracket1" tabindex="-1" class="quorum-chart-selection-bracket" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" />
+
+	<rect width="9.0" height="3.0" x="428.0" y="636.0" id="svg_1964434661_430202415412936291924_1643141512_913065088_2121995675_bracket2" tabindex="-1" class="quorum-chart-selection-bracket" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_913065088_2121995675_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="443.0,612.0 451.0,604.0 451.0,620.0 " />
+
+	<g id="svg_1964434661_430202415412936291924_1643141512_913065088_307488715" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-hidden="true"><rect width="2.0" height="53.0" x="432.0" y="585.0" id="svg_1964434661_430202415412936291924_1643141512_913065088_307488715_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true" />
+</g>
+
+	<g id="svg_1964434661_430202415412936291924_1643141512_913065088_758572926" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-hidden="true"><rect width="2.0" height="53.0" x="334.0" y="585.0" id="svg_1964434661_430202415412936291924_1643141512_913065088_758572926_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true" />
+</g>
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_913065088_500618423_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="436.0,638.0 444.0,630.0 444.0,646.0 " />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_913065088_768776793_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="436.0,608.0 444.0,600.0 444.0,616.0 " />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_913065088_1393828949_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="436.0,585.0 444.0,577.0 444.0,593.0 " />
+
+	<g id="svg_1964434661_430202415412936291924_1643141512_913065088_990679445" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-hidden="true"><rect width="2.0" height="60.0" x="383.0" y="525.0" id="svg_1964434661_430202415412936291924_1643141512_913065088_990679445_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true" />
+</g>
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_913065088_2036775591_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="436.0,524.0 444.0,516.0 444.0,532.0 " />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_913065088_746280996_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="391.0,490.0 399.0,482.0 399.0,498.0 " />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_913065088_1557989809_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="391.0,488.0 399.0,480.0 399.0,496.0 " />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_913065088_2123222442_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="391.0,481.0 399.0,473.0 399.0,489.0 " />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_913065088_1555990397_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="391.0,466.0 399.0,458.0 399.0,474.0 " />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_913065088_1291367132_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="391.0,459.0 399.0,451.0 399.0,467.0 " />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_913065088_1479140596_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="391.0,415.0 399.0,407.0 399.0,423.0 " />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_913065088_1275028674_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="391.0,366.0 399.0,358.0 399.0,374.0 " />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_1930903395_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="580.0,444.0 596.0,428.0 564.0,428.0 " />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_1930903395_473666452_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="633.0,684.0 641.0,676.0 641.0,692.0 " />
+
+	<g id="svg_1964434661_430202415412936291924_1643141512_1930903395_635611994" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-hidden="true"><rect width="2.0" height="47.0" x="580.0" y="637.0" id="svg_1964434661_430202415412936291924_1643141512_1930903395_635611994_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true" />
+</g>
+
+	<rect width="9.0" height="3.0" x="625.0" y="557.0" id="svg_1964434661_430202415412936291924_1643141512_1930903395_2138005960_bracket0" tabindex="-1" class="quorum-chart-selection-bracket" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" />
+
+	<rect width="3.0" height="80.0" x="634.0" y="557.0" id="svg_1964434661_430202415412936291924_1643141512_1930903395_2138005960_bracket1" tabindex="-1" class="quorum-chart-selection-bracket" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" />
+
+	<rect width="9.0" height="3.0" x="625.0" y="634.0" id="svg_1964434661_430202415412936291924_1643141512_1930903395_2138005960_bracket2" tabindex="-1" class="quorum-chart-selection-bracket" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_1930903395_2138005960_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="640.0,597.0 648.0,589.0 648.0,605.0 " />
+
+	<g id="svg_1964434661_430202415412936291924_1643141512_1930903395_1033856359" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-hidden="true"><rect width="2.0" height="78.0" x="629.0" y="558.0" id="svg_1964434661_430202415412936291924_1643141512_1930903395_1033856359_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true" />
+</g>
+
+	<g id="svg_1964434661_430202415412936291924_1643141512_1930903395_201677908" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-hidden="true"><rect width="2.0" height="78.0" x="531.0" y="558.0" id="svg_1964434661_430202415412936291924_1643141512_1930903395_201677908_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true" />
+</g>
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_1930903395_710623214_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="633.0,636.0 641.0,628.0 641.0,644.0 " />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_1930903395_859690270_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="633.0,607.0 641.0,599.0 641.0,615.0 " />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_1930903395_553759818_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="633.0,558.0 641.0,550.0 641.0,566.0 " />
+
+	<g id="svg_1964434661_430202415412936291924_1643141512_1930903395_904253669" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-hidden="true"><rect width="2.0" height="110.0" x="580.0" y="448.0" id="svg_1964434661_430202415412936291924_1643141512_1930903395_904253669_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true" />
+</g>
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_1930903395_1896552614_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="633.0,447.0 641.0,439.0 641.0,455.0 " />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_1930903395_1431710377_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="588.0,425.0 596.0,417.0 596.0,433.0 " />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_1930903395_2116511124_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="588.0,278.0 596.0,270.0 596.0,286.0 " />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_892931811_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="777.0,338.0 793.0,322.0 761.0,322.0 " />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_892931811_1806880779_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="830.0,672.0 838.0,664.0 838.0,680.0 " />
+
+	<g id="svg_1964434661_430202415412936291924_1643141512_892931811_1454026445" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-hidden="true"><rect width="2.0" height="33.0" x="777.0" y="639.0" id="svg_1964434661_430202415412936291924_1643141512_892931811_1454026445_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true" />
+</g>
+
+	<rect width="9.0" height="3.0" x="822.0" y="508.0" id="svg_1964434661_430202415412936291924_1643141512_892931811_446445803_bracket0" tabindex="-1" class="quorum-chart-selection-bracket" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" />
+
+	<rect width="3.0" height="132.0" x="831.0" y="508.0" id="svg_1964434661_430202415412936291924_1643141512_892931811_446445803_bracket1" tabindex="-1" class="quorum-chart-selection-bracket" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" />
+
+	<rect width="9.0" height="3.0" x="822.0" y="637.0" id="svg_1964434661_430202415412936291924_1643141512_892931811_446445803_bracket2" tabindex="-1" class="quorum-chart-selection-bracket" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_892931811_446445803_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="837.0,574.0 845.0,566.0 845.0,582.0 " />
+
+	<g id="svg_1964434661_430202415412936291924_1643141512_892931811_1420196421" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-hidden="true"><rect width="2.0" height="130.0" x="826.0" y="509.0" id="svg_1964434661_430202415412936291924_1643141512_892931811_1420196421_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true" />
+</g>
+
+	<g id="svg_1964434661_430202415412936291924_1643141512_892931811_2101527076" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-hidden="true"><rect width="2.0" height="130.0" x="728.0" y="509.0" id="svg_1964434661_430202415412936291924_1643141512_892931811_2101527076_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true" />
+</g>
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_892931811_1003755748_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="830.0,639.0 838.0,631.0 838.0,647.0 " />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_892931811_1805164661_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="830.0,591.0 838.0,583.0 838.0,599.0 " />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_892931811_896138248_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="830.0,508.0 838.0,500.0 838.0,516.0 " />
+
+	<g id="svg_1964434661_430202415412936291924_1643141512_892931811_1378497201" tabindex="-1" class="quorum-chart-plotitem quorum-chart-plotitem-list" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" role="graphics-symbol" aria-hidden="true"><rect width="2.0" height="166.0" x="777.0" y="342.0" id="svg_1964434661_430202415412936291924_1643141512_892931811_1378497201_item" tabindex="-1" class="quorum-chart-rect" fill="rgb(0.0,0.0,0.0)" fill-opacity="1.0" stroke="rgb(0.0,0.0,0.0)" stroke-opacity="1.0" stroke-width="0.0" aria-hidden="true" />
+</g>
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_892931811_243575009_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="830.0,341.0 838.0,333.0 838.0,349.0 " />
+
+	<polygon id="svg_1964434661_430202415412936291924_1643141512_892931811_1577167234_arrow" tabindex="-1" class="quorum-chart-selection-arrow" fill="rgb(0.0,0.0,0.0)" fill-opacity="0.0" aria-hidden="true" points="785.0,153.0 793.0,145.0 793.0,161.0 " />
+
+	<script  type="text/javascript">document.getElementById('svg_1964434661_430202415412936291924_1643141512_1123559518').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1123559518').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1123559518_2092709730').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_2092709730_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_2092709730_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1123559518_2092709730').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_2092709730_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_2092709730_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1123559518_1711185459').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_1711185459_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1123559518_1711185459').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_1711185459_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1123559518_1233595751').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_1233595751_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_1233595751_bracket0'); gainFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_1233595751_bracket1'); gainFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_1233595751_bracket2'); gainFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_1233595751_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1123559518_1233595751').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_1233595751_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_1233595751_bracket0'); loseFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_1233595751_bracket1'); loseFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_1233595751_bracket2'); loseFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_1233595751_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1123559518_489411441').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_489411441_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1123559518_489411441').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_489411441_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1123559518_1141113940').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_1141113940_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1123559518_1141113940').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_1141113940_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1123559518_793293778').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_793293778_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_793293778_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1123559518_793293778').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_793293778_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_793293778_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1123559518_1966355106').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_1966355106_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_1966355106_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1123559518_1966355106').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_1966355106_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_1966355106_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1123559518_1233327519').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_1233327519_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_1233327519_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1123559518_1233327519').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_1233327519_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_1233327519_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1123559518_25936709').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_25936709_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1123559518_25936709').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_25936709_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1123559518_269892014').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_269892014_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_269892014_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1123559518_269892014').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_269892014_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_269892014_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1123559518_172215878').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_172215878_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_172215878_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1123559518_172215878').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_172215878_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_172215878_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1123559518_1112456099').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_1112456099_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_1112456099_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1123559518_1112456099').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_1112456099_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_1123559518_1112456099_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_1634723627').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_1634723627_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_1634723627_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_1634723627').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_1634723627_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_1634723627_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_1640612861').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_1640612861_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_1640612861').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_1640612861_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_2121995675').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_2121995675_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_2121995675_bracket0'); gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_2121995675_bracket1'); gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_2121995675_bracket2'); gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_2121995675_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_2121995675').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_2121995675_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_2121995675_bracket0'); loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_2121995675_bracket1'); loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_2121995675_bracket2'); loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_2121995675_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_307488715').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_307488715_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_307488715').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_307488715_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_758572926').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_758572926_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_758572926').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_758572926_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_500618423').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_500618423_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_500618423_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_500618423').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_500618423_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_500618423_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_768776793').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_768776793_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_768776793_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_768776793').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_768776793_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_768776793_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_1393828949').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_1393828949_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_1393828949_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_1393828949').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_1393828949_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_1393828949_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_990679445').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_990679445_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_990679445').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_990679445_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_2036775591').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_2036775591_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_2036775591_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_2036775591').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_2036775591_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_2036775591_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_746280996').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_746280996_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_746280996_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_746280996').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_746280996_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_746280996_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_1557989809').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_1557989809_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_1557989809_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_1557989809').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_1557989809_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_1557989809_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_2123222442').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_2123222442_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_2123222442_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_2123222442').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_2123222442_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_2123222442_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_1555990397').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_1555990397_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_1555990397_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_1555990397').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_1555990397_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_1555990397_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_1291367132').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_1291367132_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_1291367132_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_1291367132').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_1291367132_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_1291367132_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_1479140596').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_1479140596_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_1479140596_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_1479140596').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_1479140596_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_1479140596_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_1275028674').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_1275028674_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_913065088_1275028674_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_913065088_1275028674').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_1275028674_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_913065088_1275028674_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1930903395').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1930903395').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1930903395_473666452').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_473666452_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_473666452_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1930903395_473666452').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_473666452_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_473666452_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1930903395_635611994').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_635611994_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1930903395_635611994').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_635611994_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1930903395_2138005960').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_2138005960_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_2138005960_bracket0'); gainFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_2138005960_bracket1'); gainFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_2138005960_bracket2'); gainFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_2138005960_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1930903395_2138005960').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_2138005960_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_2138005960_bracket0'); loseFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_2138005960_bracket1'); loseFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_2138005960_bracket2'); loseFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_2138005960_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1930903395_1033856359').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_1033856359_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1930903395_1033856359').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_1033856359_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1930903395_201677908').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_201677908_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1930903395_201677908').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_201677908_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1930903395_710623214').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_710623214_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_710623214_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1930903395_710623214').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_710623214_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_710623214_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1930903395_859690270').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_859690270_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_859690270_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1930903395_859690270').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_859690270_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_859690270_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1930903395_553759818').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_553759818_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_553759818_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1930903395_553759818').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_553759818_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_553759818_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1930903395_904253669').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_904253669_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1930903395_904253669').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_904253669_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1930903395_1896552614').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_1896552614_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_1896552614_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1930903395_1896552614').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_1896552614_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_1896552614_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1930903395_1431710377').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_1431710377_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_1431710377_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1930903395_1431710377').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_1431710377_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_1431710377_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1930903395_2116511124').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_2116511124_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_2116511124_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_1930903395_2116511124').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_2116511124_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_1930903395_2116511124_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_892931811').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_892931811_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_892931811').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_892931811_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_892931811_1806880779').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_892931811_1806880779_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_892931811_1806880779_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_892931811_1806880779').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_892931811_1806880779_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_892931811_1806880779_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_892931811_1454026445').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_892931811_1454026445_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_892931811_1454026445').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_892931811_1454026445_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_892931811_446445803').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_892931811_446445803_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_892931811_446445803_bracket0'); gainFocus('svg_1964434661_430202415412936291924_1643141512_892931811_446445803_bracket1'); gainFocus('svg_1964434661_430202415412936291924_1643141512_892931811_446445803_bracket2'); gainFocus('svg_1964434661_430202415412936291924_1643141512_892931811_446445803_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_892931811_446445803').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_892931811_446445803_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_892931811_446445803_bracket0'); loseFocus('svg_1964434661_430202415412936291924_1643141512_892931811_446445803_bracket1'); loseFocus('svg_1964434661_430202415412936291924_1643141512_892931811_446445803_bracket2'); loseFocus('svg_1964434661_430202415412936291924_1643141512_892931811_446445803_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_892931811_1420196421').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_892931811_1420196421_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_892931811_1420196421').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_892931811_1420196421_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_892931811_2101527076').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_892931811_2101527076_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_892931811_2101527076').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_892931811_2101527076_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_892931811_1003755748').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_892931811_1003755748_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_892931811_1003755748_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_892931811_1003755748').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_892931811_1003755748_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_892931811_1003755748_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_892931811_1805164661').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_892931811_1805164661_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_892931811_1805164661_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_892931811_1805164661').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_892931811_1805164661_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_892931811_1805164661_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_892931811_896138248').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_892931811_896138248_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_892931811_896138248_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_892931811_896138248').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_892931811_896138248_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_892931811_896138248_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_892931811_1378497201').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_892931811_1378497201_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_892931811_1378497201').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_892931811_1378497201_item'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_892931811_243575009').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_892931811_243575009_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_892931811_243575009_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_892931811_243575009').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_892931811_243575009_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_892931811_243575009_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_892931811_1577167234').addEventListener('focus', (event) => {
+gainFocus('svg_1964434661_430202415412936291924_1643141512_892931811_1577167234_item'); gainFocus('svg_1964434661_430202415412936291924_1643141512_892931811_1577167234_arrow'); });
+document.getElementById('svg_1964434661_430202415412936291924_1643141512_892931811_1577167234').addEventListener('blur', (event) => {
+loseFocus('svg_1964434661_430202415412936291924_1643141512_892931811_1577167234_item'); loseFocus('svg_1964434661_430202415412936291924_1643141512_892931811_1577167234_arrow'); });
+</script>
+	<script  type="text/javascript">
+if (typeof quorum_chart_value_order == 'undefined' || quorum_chart_value_order == null)
+	var quorum_chart_value_order = {};
+
+quorum_chart_value_order.svg_1964434661_430202415412936291924 = {
+	svg_1964434661_430202415412936291924_1643141512_1123559518: 11.484,
+	svg_1964434661_430202415412936291924_1643141512_913065088: 18.3395,
+	svg_1964434661_430202415412936291924_1643141512_1930903395: 18.583,
+	svg_1964434661_430202415412936291924_1643141512_892931811: 22.2715
+};
+</script>
+</svg>
+</div></div>

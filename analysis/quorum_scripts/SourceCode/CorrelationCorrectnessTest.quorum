@@ -1,0 +1,7 @@
+use Libraries.Compute.Statistics.DataFrame
+use Libraries.Compute.Statistics.Tests.CorrelateGroups 
+DataFrame frame
+frame:Load("data/responses_phase_3.csv")
+frame:AddSelectedColumns("CAT,Duration")
+CorrelateGroups correlate = frame:CorrelateSelectedColumns()
+output correlate:GetFormalSummary()
