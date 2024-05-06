@@ -1,0 +1,12 @@
+use Libraries.Compute.Statistics.DataFrame
+use Libraries.Compute.Statistics.Tests.CompareMeansPairwise
+DataFrame frame
+frame:Load("data/responses_phase_3.csv")
+frame:AddSelectedFactors("CAT,YOE")
+frame:AddSelectedColumns("Duration")
+CompareMeansPairwise result
+result:UseStrictCorrection(true)
+result:Calculate(frame)
+output result:GetPairwiseSummary()
+output result:GetFormalSummary()
+

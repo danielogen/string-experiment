@@ -1,0 +1,14 @@
+use Libraries.Compute.Statistics.DataFrame
+use Libraries.Interface.Controls.Charts.LineChart
+use Libraries.Interface.Controls.Charts.BarChart
+use Libraries.Interface.Controls.Charts.Chart
+use Libraries.Interface.Controls.Charts.ScatterPlot
+DataFrame frame
+frame:Load("data/responses_phase_3.csv")
+frame:AddSelectedFactors("CA,UA")
+frame:AddSelectedColumns("TaskID")
+frame:AddSelectedColumns("CAT")
+ScatterPlot chart = frame:ScatterPlot()
+// BarChart chart = frame:BarChart()
+ // chart:SetColorPaletteToCalm()
+chart:Display()

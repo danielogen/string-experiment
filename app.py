@@ -109,8 +109,9 @@ def save():
 
     # Create DataFrame
     df = pd.DataFrame(data_for_df)
-    df.to_csv(f"/tmp/{session['uid']}_response.csv")
-    transfer.upload_file(f"/tmp/{session['uid']}_response.csv", "string-experiment", os.environ['AccessKey'], extra_args={'ServerSideEncryption': "AES256"})
+    df.to_csv(f"data/responses.csv")
+    # df.to_csv(f"/tmp/{session['uid']}_response.csv")
+    # transfer.upload_file(f"/tmp/{session['uid']}_response.csv", "string-experiment", os.environ['AccessKey'], extra_args={'ServerSideEncryption': "AES256"})
 
     return jsonify({'status': 'success'})
 
