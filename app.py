@@ -57,39 +57,7 @@ def process_demographics():
 @app.route('/save', methods=['POST'])
 def save():
     data = request.get_json()
-    # Data format: { questionId: { userAnswer: "X", correctAnswer: "Y" }, ... }
-
-   # Format the filename with the current datetime to ensure uniqueness
-    # filename = ""
-    # if(os.environ['ENV'] != 1):
-    #     filename = f'data/responses.csv'
-    #     file_exists = os.path.exists(filename)
-    # else:
-    #     filename = "data/prod_responses.csv"
-    #     file_exists = os.path.exists(filename)
     
-    # with open(filename, '+a', newline='') as file:
-    #     writer = csv.writer(file)
-    #     # Write the header row
-    #     # CAT - Category, CA = Correct Answer, UA = User Answer
-    #     if not file_exists:
-    #         writer.writerow(['UID','Gender', 'Age', 'COY', 'YOE', 'TaskID', 'Complexity', 'CAT', 'CA', 'UA', 'Duration'])
-        
-    #     # Write the data rows
-    #     for question_id, answers in data.items():
-    #         writer.writerow([
-    #             session['uid'],
-    #             session['gender'],
-    #             session['age'],
-    #             session['COY'],
-    #             session['YOE'],
-    #             question_id,
-    #             answers['complexity'],
-    #             answers['category'],
-    #             answers['correctAnswer'],
-    #             answers['userAnswer'], 
-    #             answers['duration']
-    #         ])
     data_for_df = [
     {
         'UID': session['uid'],
@@ -109,9 +77,9 @@ def save():
 
     # Create DataFrame
     df = pd.DataFrame(data_for_df)
-    df.to_csv(f"data/responses.csv")
-    # df.to_csv(f"/tmp/{session['uid']}_response.csv")
-    # transfer.upload_file(f"/tmp/{session['uid']}_response.csv", "string-experiment", os.environ['AccessKey'], extra_args={'ServerSideEncryption': "AES256"})
+    # df.to_csv(f"data/responses.csv")
+    df.to_csv(f"/tmp/{session['uid']}_response.csv")
+    transfer.upload_file(f"/tmp/{session['uid']}_response.csv", "string-experiment", os.environ['AccessKey'], extra_args={'ServerSideEncryption': "AES256"})
 
     return jsonify({'status': 'success'})
 
