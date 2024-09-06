@@ -11,7 +11,7 @@
         <h4>Task 1 of 16: The "+" symbol represents concatenation. Press 1, 2, 3 or 4 to select the correct concatenation. </h4>
           <pre>
               <code>
-                "John Deo, " + "3" + "1"
+                "John Doe, " + "3" + "1"
               </code>
           </pre>
           Options: <br />
@@ -423,7 +423,7 @@ Options: <br />
     </div> -->
 
 <div id="submitPage" style="display: none;">
-      <h4 class="text-success">Thank you for participating in this study!</h4>
+      <h4 class="text-success"><b>Submitted!!</b> Thank you for participating in this study!</h4>
     </div>
   </form>
   </div>
@@ -492,9 +492,9 @@ Options: <br />
             // Optionally, redirect the user or display a success message
             currentQuestion.style.display = 'none'
             submitPage.style.display = 'block';
-            // setTimeout(() => {
-            //   window.location = "/"
-            // }, 5000);
+            setTimeout(() => {
+              window.location = "/"
+            }, 6000);
           })
           .catch((error) => {
             console.error('Error:', error);
