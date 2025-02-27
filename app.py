@@ -1,4 +1,4 @@
-from flask import Flask, redirect, url_for, render_template,session, jsonify, request,send_file
+from flask import Flask, redirect, url_for, render_template,session, jsonify, request,send_file, send_from_directory
 from datetime import datetime
 import randomize
 import csv
@@ -16,9 +16,15 @@ transfer = S3Transfer(s3_client)
 app = Flask(__name__)
 app.secret_key="v_qf*A&Juo)~9'D"
 
-# @app.route("/")
-# def home():
-#     return render_template("consent.html")
+@app.route("/informed-consent")
+def consent():
+    return render_template("consent.html")
+
+@app.route('/doc/<filename>')
+def download_file(filename):
+    """Serve static PDF files from the 'static/doc' directory."""
+    return send_from_directory('static/doc', filename)
+
 @app.route("/declined")
 def decline():
     return render_template("decline.html")
@@ -28,10 +34,10 @@ def home():
     # make sure session is empty at the start of each experience or
     # at the end of experience
     session.clear()
+    return render_template("welcome.html")
+@app.route("/protocol")
+def protocol():
     return render_template("protocol.html")
-# @app.route("/protocol")
-# def protocol():
-#     return render_template("protocol.html")
 @app.route("/demographics")
 def demographics():
     return render_template("demographics.html")
