@@ -54,8 +54,11 @@ def experiment():
 @app.route("/process", methods=['POST'])
 def process_demographics():
     session['age'] = request.form['age']
-    session['COY'] = request.form['COY'] # college year
-    session['YOE'] = request.form['YOE'] # year of programming experience
+    session['year'] = request.form['year'] # college year
+    session['education'] = request.form['education'] # college year
+    session['jobxp'] = request.form['jobxp'] # year of programming experience
+    session['state'] = request.form['state']
+    session['major'] = request.form['major']
     session['gender'] = request.form['gender']
     session['uid'] = str(uuid.uuid1())[:8]
     return redirect(url_for('pre_tasks'))
@@ -69,13 +72,16 @@ def save():
         'UID': session['uid'],
         'Gender': session['gender'],
         'Age': session['age'],
-        'COY': session['COY'],
-        'YOE': session['YOE'],
+        'YearInCollege': session['year'],
+        'Education': session['education'],
+        'State': session['state'],
+        'Major': session['major'],
+        'JobExperience': session['jobxp'],
         'TaskID': question_id,
         'Complexity': answers['complexity'],
-        'CAT': answers['category'],
-        'CA': answers['correctAnswer'],
-        'UA': answers['userAnswer'],
+        'Category': answers['category'],
+        'CorrectAnswer': answers['correctAnswer'],
+        'UserAnswer': answers['userAnswer'],
         'Duration': answers['duration']
     }
     for question_id, answers in data.items()
