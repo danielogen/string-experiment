@@ -12,6 +12,9 @@ pre > code {
     font-size: 13pt;
     background-color: azure;
 }
+label {
+    font-weight: bold;
+}
 /* #scroll-area {
     padding: 20px;
     padding-top: 0px;
