@@ -491,8 +491,9 @@ Options: <br />
           .then(data => {
             console.log('Success:', data);
             // Optionally, redirect the user or display a success message
-            currentQuestion.style.display = 'none'
-            submitPage.style.display = 'block';
+            currentQuestion.style.display = 'none';
+            window.location = "/post-survey"
+            // submitPage.style.display = 'block';
             // setTimeout(() => {
             //   window.location = "/"
             // }, 5000);
