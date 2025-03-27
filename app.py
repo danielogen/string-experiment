@@ -51,6 +51,35 @@ def experiment():
     # concatenation  = randomize.error_concatenation();
     return render_template("experiment.html")
 
+@app.route("/experiment-completed")
+def experiment_completed():
+    # concatenation  = randomize.error_concatenation();
+    return render_template("end.html")
+
+@app.route("/process-post-survey")
+def post_survey():
+    data = request.get_json()
+
+    uid = session.get('uid')
+    if isinstance(uid, tuple):
+        uid = uid[0]  # extract the actual UID
+    data_for_df = {
+        'UID': uid,
+        'readability_reflection': data['readability_reflection'],
+        'comprehension_debugging': data['comprehension_debugging'],
+        'preference_rationale': data['preference_rationale'],
+        'learning_curve': data['learning_curve'],
+        'suggestions_improvement': data['suggestions_improvement']
+    }
+
+     # Create DataFrame
+    df = pd.DataFrame(data_for_df)
+    # df.to_csv(f"data/responses.csv")
+    df.to_csv(f"/tmp/{uid}_post_survey_response.csv")
+    transfer.upload_file(f"/tmp/{uid}_post_survey_response.csv", "string-experiment", os.environ['AccessKey'], extra_args={'ServerSideEncryption': "AES256"})
+  
+    return redirect(url_for('experiment_completed'))
+
 @app.route("/process", methods=['POST'])
 def process_demographics():
     session['age'] = request.form['age']
@@ -66,6 +95,10 @@ def process_demographics():
 @app.route('/save', methods=['POST'])
 def save():
     data = request.get_json()
+
+    uid = session.get('uid')
+    if isinstance(uid, tuple):
+        uid = uid[0]  # extract the actual UID
     
     data_for_df = [
     {
@@ -90,8 +123,8 @@ def save():
     # Create DataFrame
     df = pd.DataFrame(data_for_df)
     # df.to_csv(f"data/responses.csv")
-    df.to_csv(f"/tmp/{session['uid']}_response.csv")
-    transfer.upload_file(f"/tmp/{session['uid']}_response.csv", "string-experiment", os.environ['AccessKey'], extra_args={'ServerSideEncryption': "AES256"})
+    df.to_csv(f"/tmp/{uid}_response.csv")
+    transfer.upload_file(f"/tmp/{uid}_response.csv", "string-experiment", os.environ['AccessKey'], extra_args={'ServerSideEncryption': "AES256"})
 
     return jsonify({'status': 'success'})
 
