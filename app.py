@@ -48,35 +48,44 @@ def pre_tasks():
 
 @app.route("/experiment")
 def experiment():
-    # concatenation  = randomize.error_concatenation();
     return render_template("experiment.html")
 
 @app.route("/experiment-completed")
 def experiment_completed():
-    # concatenation  = randomize.error_concatenation();
     return render_template("end.html")
 
-@app.route("/process-post-survey")
+@app.route("/post-survey")
 def post_survey():
-    data = request.get_json()
+    return render_template("post-survey.html")
+
+@app.route("/process-post-survey", methods=['POST'])
+def process_post_survey():
+    # data = request.get_json()
 
     uid = session.get('uid')
     if isinstance(uid, tuple):
         uid = uid[0]  # extract the actual UID
+    
+    readability_reflection = request.form.get('readability_reflection'),
+    comprehension_debugging = request.form.get('comprehension_debugging'),
+    preference_rationale = request.form.get('preference_rationale'),
+    learning_curve = request.form.get('learning_curve'),
+    suggestions_improvement = request.form.get('suggestions_improvement')
+    
     data_for_df = {
         'UID': uid,
-        'readability_reflection': data['readability_reflection'],
-        'comprehension_debugging': data['comprehension_debugging'],
-        'preference_rationale': data['preference_rationale'],
-        'learning_curve': data['learning_curve'],
-        'suggestions_improvement': data['suggestions_improvement']
+        'readability_reflection': readability_reflection,
+        'comprehension_debugging': comprehension_debugging,
+        'preference_rationale': preference_rationale,
+        'learning_curve': learning_curve,
+        'suggestions_improvement': suggestions_improvement
     }
 
      # Create DataFrame
     df = pd.DataFrame(data_for_df)
-    # df.to_csv(f"data/responses.csv")
-    df.to_csv(f"/tmp/{uid}_post_survey_response.csv")
-    transfer.upload_file(f"/tmp/{uid}_post_survey_response.csv", "string-experiment", os.environ['AccessKey'], extra_args={'ServerSideEncryption': "AES256"})
+    df.to_csv(f"data/{uid}_post_survey_response.csv")
+    # df.to_csv(f"/tmp/{uid}_post_survey_response.csv")
+    # transfer.upload_file(f"/tmp/{uid}_post_survey_response.csv", "string-experiment", os.environ['AccessKey'], extra_args={'ServerSideEncryption': "AES256"})
   
     return redirect(url_for('experiment_completed'))
 
@@ -122,9 +131,9 @@ def save():
 
     # Create DataFrame
     df = pd.DataFrame(data_for_df)
-    # df.to_csv(f"data/responses.csv")
-    df.to_csv(f"/tmp/{uid}_response.csv")
-    transfer.upload_file(f"/tmp/{uid}_response.csv", "string-experiment", os.environ['AccessKey'], extra_args={'ServerSideEncryption': "AES256"})
+    df.to_csv(f"data/{uid}_response.csv")
+    # df.to_csv(f"/tmp/{uid}_response.csv")
+    # transfer.upload_file(f"/tmp/{uid}_response.csv", "string-experiment", os.environ['AccessKey'], extra_args={'ServerSideEncryption': "AES256"})
 
     return jsonify({'status': 'success'})
 
