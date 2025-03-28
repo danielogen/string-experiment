@@ -85,7 +85,7 @@ def process_post_survey():
     df = pd.DataFrame(data_for_df)
     # df.to_csv(f"data/{uid}_post_survey_response.csv")
     df.to_csv(f"/tmp/{uid}_post_survey_response.csv")
-    transfer.upload_file(f"/tmp/{uid}_post_survey_response.csv", "string-experiment", os.environ['AccessKey'], extra_args={'ServerSideEncryption': "AES256"})
+    transfer.upload_file(f"/tmp/{uid}_post_survey_response.csv", "string-experiment-post", os.environ['AccessKey'], extra_args={'ServerSideEncryption': "AES256"})
   
     return redirect(url_for('experiment_completed'))
 
